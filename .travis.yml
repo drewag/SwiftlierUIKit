@@ -1,0 +1,20 @@
+matrix:
+  include:
+    - os: linux
+      dist: trusty
+      sudo: required
+      before_install: git clone https://github.com/IBM-Swift/Package-Builder.git
+      env: "PLATFORM=Linux"
+    - os: osx
+      osx_image: xcode10
+      sudo: required
+      env: "PLATFORM=macOS"
+      before_install: git clone https://github.com/IBM-Swift/Package-Builder.git
+    - os: osx
+      osx_image: xcode10
+      env: "PLATFORM=iOS"
+      before_install: gem install xcpretty-travis-formatter
+
+script:
+  - ./run-tests
+

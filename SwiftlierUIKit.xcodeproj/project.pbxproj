@@ -1,0 +1,849 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"SwiftlierUIKit::SwiftlierUIKitPackageTests::ProductTarget" /* SwiftlierUIKitPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_304 /* Build configuration list for PBXAggregateTarget "SwiftlierUIKitPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_307 /* PBXTargetDependency */,
+			);
+			name = SwiftlierUIKitPackageTests;
+			productName = SwiftlierUIKitPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		OBJ_238 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Alert.swift */; };
+		OBJ_239 /* DataSourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* DataSourceType.swift */; };
+		OBJ_240 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* DatePickerViewController.swift */; };
+		OBJ_241 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* FormViewController.swift */; };
+		OBJ_242 /* KeyboardConstraintAdjuster.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* KeyboardConstraintAdjuster.swift */; };
+		OBJ_243 /* KeyboardTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* KeyboardTracker.swift */; };
+		OBJ_244 /* LayeredTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* LayeredTableViewController.swift */; };
+		OBJ_245 /* LimitedSizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* LimitedSizeViewController.swift */; };
+		OBJ_246 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* MenuViewController.swift */; };
+		OBJ_247 /* SelectListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* SelectListViewController.swift */; };
+		OBJ_248 /* TaskService.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* TaskService.swift */; };
+		OBJ_249 /* UIBarButtonItem+BlockTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* UIBarButtonItem+BlockTarget.swift */; };
+		OBJ_250 /* UIButton+BlockTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* UIButton+BlockTarget.swift */; };
+		OBJ_251 /* UICollectionView+EasyRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* UICollectionView+EasyRegister.swift */; };
+		OBJ_252 /* UINavigationController+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* UINavigationController+Helpers.swift */; };
+		OBJ_253 /* UITableView+EasyRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* UITableView+EasyRegister.swift */; };
+		OBJ_254 /* UIViewController+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* UIViewController+Helpers.swift */; };
+		OBJ_255 /* UIViewController+PhotoViewing.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* UIViewController+PhotoViewing.swift */; };
+		OBJ_256 /* UIViewController+Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* UIViewController+Transitions.swift */; };
+		OBJ_257 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* WebViewController.swift */; };
+		OBJ_258 /* ZoomThroughTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* ZoomThroughTransition.swift */; };
+		OBJ_259 /* Date+DispatchTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* Date+DispatchTime.swift */; };
+		OBJ_260 /* EnergyFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* EnergyFormatting.swift */; };
+		OBJ_261 /* FileSystem+Directories.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* FileSystem+Directories.swift */; };
+		OBJ_262 /* Float+Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* Float+Factory.swift */; };
+		OBJ_263 /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* Form.swift */; };
+		OBJ_264 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* Menu.swift */; };
+		OBJ_265 /* ObfuscatedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* ObfuscatedData.swift */; };
+		OBJ_266 /* ObservableArray+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* ObservableArray+UI.swift */; };
+		OBJ_267 /* Path+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* Path+Image.swift */; };
+		OBJ_268 /* Transformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* Transformation.swift */; };
+		OBJ_269 /* UIColor+Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* UIColor+Encodable.swift */; };
+		OBJ_270 /* UIColor+Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* UIColor+Factory.swift */; };
+		OBJ_271 /* UIDevice+AppIdioms.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* UIDevice+AppIdioms.swift */; };
+		OBJ_272 /* UIImage+Editing.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* UIImage+Editing.swift */; };
+		OBJ_273 /* BubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* BubbleView.swift */; };
+		OBJ_274 /* CGContext+ThreadSafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* CGContext+ThreadSafe.swift */; };
+		OBJ_275 /* CGMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* CGMath.swift */; };
+		OBJ_276 /* CircleBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* CircleBorderView.swift */; };
+		OBJ_277 /* CustomGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* CustomGradientView.swift */; };
+		OBJ_278 /* DiagonalGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* DiagonalGradientView.swift */; };
+		OBJ_279 /* MonthAndYearPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* MonthAndYearPicker.swift */; };
+		OBJ_280 /* NSLayoutConstraint+SwifPlusPlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* NSLayoutConstraint+SwifPlusPlus.swift */; };
+		OBJ_281 /* NSLayoutContraint+Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* NSLayoutContraint+Factory.swift */; };
+		OBJ_282 /* PassThroughTouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* PassThroughTouchView.swift */; };
+		OBJ_283 /* PlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* PlaceholderTextView.swift */; };
+		OBJ_284 /* RoundedBorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_58 /* RoundedBorderButton.swift */; };
+		OBJ_285 /* RoundedBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_59 /* RoundedBorderView.swift */; };
+		OBJ_286 /* SectionHeaderWithButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_60 /* SectionHeaderWithButtonView.swift */; };
+		OBJ_287 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_61 /* ShadowView.swift */; };
+		OBJ_288 /* ThinLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_62 /* ThinLayoutConstraint.swift */; };
+		OBJ_289 /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_63 /* UIView+Animations.swift */; };
+		OBJ_290 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_64 /* UIView+Constraints.swift */; };
+		OBJ_291 /* UIView+Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* UIView+Drawing.swift */; };
+		OBJ_292 /* UIView+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_66 /* UIView+Helpers.swift */; };
+		OBJ_293 /* UIView+ImageCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_67 /* UIView+ImageCapture.swift */; };
+		OBJ_294 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_68 /* UIView+Layout.swift */; };
+		OBJ_295 /* VerticalGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* VerticalGradientView.swift */; };
+		OBJ_302 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_313 /* AlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_72 /* AlertTests.swift */; };
+		OBJ_314 /* CGMathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_73 /* CGMathTests.swift */; };
+		OBJ_315 /* ColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_74 /* ColorTests.swift */; };
+		OBJ_316 /* DataSourceTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_75 /* DataSourceTypeTests.swift */; };
+		OBJ_317 /* ObfuscatedDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_76 /* ObfuscatedDataTests.swift */; };
+		OBJ_318 /* Path_ImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_77 /* Path_ImageTests.swift */; };
+		OBJ_319 /* UIView_ConstraintsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_78 /* UIView_ConstraintsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49A9584422E8F4DF00546845 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SwiftlierUIKit::SwiftlierUIKitTests";
+			remoteInfo = SwiftlierUIKitTests;
+		};
+		49A9584E22E8FA6700546845 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49A9584722E8FA6700546845 /* Swiftlier.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "Swiftlier::Swiftlier::Product";
+			remoteInfo = Swiftlier;
+		};
+		49A9585022E8FA6700546845 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49A9584722E8FA6700546845 /* Swiftlier.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "Swiftlier::SwiftlierTests::Product";
+			remoteInfo = SwiftlierTests;
+		};
+		49A9585422E8FFFF00546845 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49A9584722E8FA6700546845 /* Swiftlier.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "Swiftlier::Swiftlier";
+			remoteInfo = Swiftlier;
+		};
+		49A9585922E9008900546845 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49A9584722E8FA6700546845 /* Swiftlier.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "Swiftlier::Swiftlier";
+			remoteInfo = Swiftlier;
+		};
+		49A9585E22E900A200546845 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SwiftlierUIKit::SwiftlierUIKit";
+			remoteInfo = SwiftlierUIKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49A9584722E8FA6700546845 /* Swiftlier.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swiftlier.xcodeproj; path = .build/checkouts/Swiftlier/Swiftlier.xcodeproj; sourceTree = "<group>"; };
+		OBJ_10 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		OBJ_11 /* DataSourceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceType.swift; sourceTree = "<group>"; };
+		OBJ_12 /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		OBJ_13 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		OBJ_14 /* KeyboardConstraintAdjuster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardConstraintAdjuster.swift; sourceTree = "<group>"; };
+		OBJ_15 /* KeyboardTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardTracker.swift; sourceTree = "<group>"; };
+		OBJ_158 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = SOURCE_ROOT; };
+		OBJ_159 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		OBJ_16 /* LayeredTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayeredTableViewController.swift; sourceTree = "<group>"; };
+		OBJ_160 /* azure-pipelines.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = "azure-pipelines.yml"; sourceTree = "<group>"; };
+		OBJ_161 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_17 /* LimitedSizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitedSizeViewController.swift; sourceTree = "<group>"; };
+		OBJ_18 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		OBJ_19 /* SelectListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectListViewController.swift; sourceTree = "<group>"; };
+		OBJ_20 /* TaskService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskService.swift; sourceTree = "<group>"; };
+		OBJ_21 /* UIBarButtonItem+BlockTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+BlockTarget.swift"; sourceTree = "<group>"; };
+		OBJ_22 /* UIButton+BlockTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+BlockTarget.swift"; sourceTree = "<group>"; };
+		OBJ_23 /* UICollectionView+EasyRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+EasyRegister.swift"; sourceTree = "<group>"; };
+		OBJ_24 /* UINavigationController+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Helpers.swift"; sourceTree = "<group>"; };
+		OBJ_25 /* UITableView+EasyRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+EasyRegister.swift"; sourceTree = "<group>"; };
+		OBJ_26 /* UIViewController+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Helpers.swift"; sourceTree = "<group>"; };
+		OBJ_27 /* UIViewController+PhotoViewing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+PhotoViewing.swift"; sourceTree = "<group>"; };
+		OBJ_28 /* UIViewController+Transitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Transitions.swift"; sourceTree = "<group>"; };
+		OBJ_29 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		OBJ_30 /* ZoomThroughTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomThroughTransition.swift; sourceTree = "<group>"; };
+		OBJ_32 /* Date+DispatchTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+DispatchTime.swift"; sourceTree = "<group>"; };
+		OBJ_33 /* EnergyFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyFormatting.swift; sourceTree = "<group>"; };
+		OBJ_34 /* FileSystem+Directories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileSystem+Directories.swift"; sourceTree = "<group>"; };
+		OBJ_35 /* Float+Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+Factory.swift"; sourceTree = "<group>"; };
+		OBJ_36 /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
+		OBJ_37 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		OBJ_38 /* ObfuscatedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObfuscatedData.swift; sourceTree = "<group>"; };
+		OBJ_39 /* ObservableArray+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObservableArray+UI.swift"; sourceTree = "<group>"; };
+		OBJ_40 /* Path+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Path+Image.swift"; sourceTree = "<group>"; };
+		OBJ_41 /* Transformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transformation.swift; sourceTree = "<group>"; };
+		OBJ_42 /* UIColor+Encodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Encodable.swift"; sourceTree = "<group>"; };
+		OBJ_43 /* UIColor+Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Factory.swift"; sourceTree = "<group>"; };
+		OBJ_44 /* UIDevice+AppIdioms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+AppIdioms.swift"; sourceTree = "<group>"; };
+		OBJ_45 /* UIImage+Editing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Editing.swift"; sourceTree = "<group>"; };
+		OBJ_47 /* BubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleView.swift; sourceTree = "<group>"; };
+		OBJ_48 /* CGContext+ThreadSafe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGContext+ThreadSafe.swift"; sourceTree = "<group>"; };
+		OBJ_49 /* CGMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGMath.swift; sourceTree = "<group>"; };
+		OBJ_50 /* CircleBorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleBorderView.swift; sourceTree = "<group>"; };
+		OBJ_51 /* CustomGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGradientView.swift; sourceTree = "<group>"; };
+		OBJ_52 /* DiagonalGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagonalGradientView.swift; sourceTree = "<group>"; };
+		OBJ_53 /* MonthAndYearPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthAndYearPicker.swift; sourceTree = "<group>"; };
+		OBJ_54 /* NSLayoutConstraint+SwifPlusPlus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+SwifPlusPlus.swift"; sourceTree = "<group>"; };
+		OBJ_55 /* NSLayoutContraint+Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLayoutContraint+Factory.swift"; sourceTree = "<group>"; };
+		OBJ_56 /* PassThroughTouchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassThroughTouchView.swift; sourceTree = "<group>"; };
+		OBJ_57 /* PlaceholderTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderTextView.swift; sourceTree = "<group>"; };
+		OBJ_58 /* RoundedBorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedBorderButton.swift; sourceTree = "<group>"; };
+		OBJ_59 /* RoundedBorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedBorderView.swift; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_60 /* SectionHeaderWithButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderWithButtonView.swift; sourceTree = "<group>"; };
+		OBJ_61 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		OBJ_62 /* ThinLayoutConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinLayoutConstraint.swift; sourceTree = "<group>"; };
+		OBJ_63 /* UIView+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Animations.swift"; sourceTree = "<group>"; };
+		OBJ_64 /* UIView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
+		OBJ_65 /* UIView+Drawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Drawing.swift"; sourceTree = "<group>"; };
+		OBJ_66 /* UIView+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Helpers.swift"; sourceTree = "<group>"; };
+		OBJ_67 /* UIView+ImageCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ImageCapture.swift"; sourceTree = "<group>"; };
+		OBJ_68 /* UIView+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
+		OBJ_69 /* VerticalGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalGradientView.swift; sourceTree = "<group>"; };
+		OBJ_72 /* AlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTests.swift; sourceTree = "<group>"; };
+		OBJ_73 /* CGMathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGMathTests.swift; sourceTree = "<group>"; };
+		OBJ_74 /* ColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTests.swift; sourceTree = "<group>"; };
+		OBJ_75 /* DataSourceTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceTypeTests.swift; sourceTree = "<group>"; };
+		OBJ_76 /* ObfuscatedDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObfuscatedDataTests.swift; sourceTree = "<group>"; };
+		OBJ_77 /* Path_ImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path_ImageTests.swift; sourceTree = "<group>"; };
+		OBJ_78 /* UIView_ConstraintsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView_ConstraintsTests.swift; sourceTree = "<group>"; };
+		"SwiftlierUIKit::SwiftlierUIKit::Product" /* SwiftlierUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftlierUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SwiftlierUIKit::SwiftlierUIKitTests::Product" /* SwiftlierUIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = SwiftlierUIKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49A9584822E8FA6700546845 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49A9584F22E8FA6700546845 /* Swiftlier.framework */,
+				49A9585122E8FA6700546845 /* SwiftlierTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		OBJ_154 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"SwiftlierUIKit::SwiftlierUIKitTests::Product" /* SwiftlierUIKitTests.xctest */,
+				"SwiftlierUIKit::SwiftlierUIKit::Product" /* SwiftlierUIKit.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_31 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_32 /* Date+DispatchTime.swift */,
+				OBJ_33 /* EnergyFormatting.swift */,
+				OBJ_34 /* FileSystem+Directories.swift */,
+				OBJ_35 /* Float+Factory.swift */,
+				OBJ_36 /* Form.swift */,
+				OBJ_37 /* Menu.swift */,
+				OBJ_38 /* ObfuscatedData.swift */,
+				OBJ_39 /* ObservableArray+UI.swift */,
+				OBJ_40 /* Path+Image.swift */,
+				OBJ_41 /* Transformation.swift */,
+				OBJ_42 /* UIColor+Encodable.swift */,
+				OBJ_43 /* UIColor+Factory.swift */,
+				OBJ_44 /* UIDevice+AppIdioms.swift */,
+				OBJ_45 /* UIImage+Editing.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		OBJ_46 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_47 /* BubbleView.swift */,
+				OBJ_48 /* CGContext+ThreadSafe.swift */,
+				OBJ_49 /* CGMath.swift */,
+				OBJ_50 /* CircleBorderView.swift */,
+				OBJ_51 /* CustomGradientView.swift */,
+				OBJ_52 /* DiagonalGradientView.swift */,
+				OBJ_53 /* MonthAndYearPicker.swift */,
+				OBJ_54 /* NSLayoutConstraint+SwifPlusPlus.swift */,
+				OBJ_55 /* NSLayoutContraint+Factory.swift */,
+				OBJ_56 /* PassThroughTouchView.swift */,
+				OBJ_57 /* PlaceholderTextView.swift */,
+				OBJ_58 /* RoundedBorderButton.swift */,
+				OBJ_59 /* RoundedBorderView.swift */,
+				OBJ_60 /* SectionHeaderWithButtonView.swift */,
+				OBJ_61 /* ShadowView.swift */,
+				OBJ_62 /* ThinLayoutConstraint.swift */,
+				OBJ_63 /* UIView+Animations.swift */,
+				OBJ_64 /* UIView+Constraints.swift */,
+				OBJ_65 /* UIView+Drawing.swift */,
+				OBJ_66 /* UIView+Helpers.swift */,
+				OBJ_67 /* UIView+ImageCapture.swift */,
+				OBJ_68 /* UIView+Layout.swift */,
+				OBJ_69 /* VerticalGradientView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		OBJ_5 = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_70 /* Tests */,
+				OBJ_79 /* Dependencies */,
+				OBJ_154 /* Products */,
+				OBJ_158 /* Assets */,
+				OBJ_159 /* LICENSE */,
+				OBJ_160 /* azure-pipelines.yml */,
+				OBJ_161 /* README.md */,
+			);
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* SwiftlierUIKit */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_70 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_71 /* SwiftlierUIKitTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_71 /* SwiftlierUIKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_72 /* AlertTests.swift */,
+				OBJ_73 /* CGMathTests.swift */,
+				OBJ_74 /* ColorTests.swift */,
+				OBJ_75 /* DataSourceTypeTests.swift */,
+				OBJ_76 /* ObfuscatedDataTests.swift */,
+				OBJ_77 /* Path_ImageTests.swift */,
+				OBJ_78 /* UIView_ConstraintsTests.swift */,
+			);
+			name = SwiftlierUIKitTests;
+			path = Tests/SwiftlierUIKitTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_79 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				49A9584722E8FA6700546845 /* Swiftlier.xcodeproj */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		OBJ_8 /* SwiftlierUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* Controller */,
+				OBJ_31 /* Model */,
+				OBJ_46 /* View */,
+			);
+			path = SwiftlierUIKit;
+			sourceTree = "<group>";
+		};
+		OBJ_9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_10 /* Alert.swift */,
+				OBJ_11 /* DataSourceType.swift */,
+				OBJ_12 /* DatePickerViewController.swift */,
+				OBJ_13 /* FormViewController.swift */,
+				OBJ_14 /* KeyboardConstraintAdjuster.swift */,
+				OBJ_15 /* KeyboardTracker.swift */,
+				OBJ_16 /* LayeredTableViewController.swift */,
+				OBJ_17 /* LimitedSizeViewController.swift */,
+				OBJ_18 /* MenuViewController.swift */,
+				OBJ_19 /* SelectListViewController.swift */,
+				OBJ_20 /* TaskService.swift */,
+				OBJ_21 /* UIBarButtonItem+BlockTarget.swift */,
+				OBJ_22 /* UIButton+BlockTarget.swift */,
+				OBJ_23 /* UICollectionView+EasyRegister.swift */,
+				OBJ_24 /* UINavigationController+Helpers.swift */,
+				OBJ_25 /* UITableView+EasyRegister.swift */,
+				OBJ_26 /* UIViewController+Helpers.swift */,
+				OBJ_27 /* UIViewController+PhotoViewing.swift */,
+				OBJ_28 /* UIViewController+Transitions.swift */,
+				OBJ_29 /* WebViewController.swift */,
+				OBJ_30 /* ZoomThroughTransition.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"SwiftlierUIKit::SwiftPMPackageDescription" /* SwiftlierUIKitPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_298 /* Build configuration list for PBXNativeTarget "SwiftlierUIKitPackageDescription" */;
+			buildPhases = (
+				OBJ_301 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftlierUIKitPackageDescription;
+			productName = SwiftlierUIKitPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"SwiftlierUIKit::SwiftlierUIKit" /* SwiftlierUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_234 /* Build configuration list for PBXNativeTarget "SwiftlierUIKit" */;
+			buildPhases = (
+				OBJ_237 /* Sources */,
+				OBJ_296 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49A9585522E8FFFF00546845 /* PBXTargetDependency */,
+			);
+			name = SwiftlierUIKit;
+			productName = SwiftlierUIKit;
+			productReference = "SwiftlierUIKit::SwiftlierUIKit::Product" /* SwiftlierUIKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"SwiftlierUIKit::SwiftlierUIKitTests" /* SwiftlierUIKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_309 /* Build configuration list for PBXNativeTarget "SwiftlierUIKitTests" */;
+			buildPhases = (
+				OBJ_312 /* Sources */,
+				OBJ_320 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49A9585F22E900A200546845 /* PBXTargetDependency */,
+				49A9585A22E9008900546845 /* PBXTargetDependency */,
+			);
+			name = SwiftlierUIKitTests;
+			productName = SwiftlierUIKitTests;
+			productReference = "SwiftlierUIKit::SwiftlierUIKitTests::Product" /* SwiftlierUIKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "SwiftlierUIKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = OBJ_5;
+			productRefGroup = OBJ_154 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 49A9584822E8FA6700546845 /* Products */;
+					ProjectRef = 49A9584722E8FA6700546845 /* Swiftlier.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				"SwiftlierUIKit::SwiftlierUIKit" /* SwiftlierUIKit */,
+				"SwiftlierUIKit::SwiftPMPackageDescription" /* SwiftlierUIKitPackageDescription */,
+				"SwiftlierUIKit::SwiftlierUIKitPackageTests::ProductTarget" /* SwiftlierUIKitPackageTests */,
+				"SwiftlierUIKit::SwiftlierUIKitTests" /* SwiftlierUIKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		49A9584F22E8FA6700546845 /* Swiftlier.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Swiftlier.framework;
+			remoteRef = 49A9584E22E8FA6700546845 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49A9585122E8FA6700546845 /* SwiftlierTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = file;
+			path = SwiftlierTests.xctest;
+			remoteRef = 49A9585022E8FA6700546845 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_238 /* Alert.swift in Sources */,
+				OBJ_239 /* DataSourceType.swift in Sources */,
+				OBJ_240 /* DatePickerViewController.swift in Sources */,
+				OBJ_241 /* FormViewController.swift in Sources */,
+				OBJ_242 /* KeyboardConstraintAdjuster.swift in Sources */,
+				OBJ_243 /* KeyboardTracker.swift in Sources */,
+				OBJ_244 /* LayeredTableViewController.swift in Sources */,
+				OBJ_245 /* LimitedSizeViewController.swift in Sources */,
+				OBJ_246 /* MenuViewController.swift in Sources */,
+				OBJ_247 /* SelectListViewController.swift in Sources */,
+				OBJ_248 /* TaskService.swift in Sources */,
+				OBJ_249 /* UIBarButtonItem+BlockTarget.swift in Sources */,
+				OBJ_250 /* UIButton+BlockTarget.swift in Sources */,
+				OBJ_251 /* UICollectionView+EasyRegister.swift in Sources */,
+				OBJ_252 /* UINavigationController+Helpers.swift in Sources */,
+				OBJ_253 /* UITableView+EasyRegister.swift in Sources */,
+				OBJ_254 /* UIViewController+Helpers.swift in Sources */,
+				OBJ_255 /* UIViewController+PhotoViewing.swift in Sources */,
+				OBJ_256 /* UIViewController+Transitions.swift in Sources */,
+				OBJ_257 /* WebViewController.swift in Sources */,
+				OBJ_258 /* ZoomThroughTransition.swift in Sources */,
+				OBJ_259 /* Date+DispatchTime.swift in Sources */,
+				OBJ_260 /* EnergyFormatting.swift in Sources */,
+				OBJ_261 /* FileSystem+Directories.swift in Sources */,
+				OBJ_262 /* Float+Factory.swift in Sources */,
+				OBJ_263 /* Form.swift in Sources */,
+				OBJ_264 /* Menu.swift in Sources */,
+				OBJ_265 /* ObfuscatedData.swift in Sources */,
+				OBJ_266 /* ObservableArray+UI.swift in Sources */,
+				OBJ_267 /* Path+Image.swift in Sources */,
+				OBJ_268 /* Transformation.swift in Sources */,
+				OBJ_269 /* UIColor+Encodable.swift in Sources */,
+				OBJ_270 /* UIColor+Factory.swift in Sources */,
+				OBJ_271 /* UIDevice+AppIdioms.swift in Sources */,
+				OBJ_272 /* UIImage+Editing.swift in Sources */,
+				OBJ_273 /* BubbleView.swift in Sources */,
+				OBJ_274 /* CGContext+ThreadSafe.swift in Sources */,
+				OBJ_275 /* CGMath.swift in Sources */,
+				OBJ_276 /* CircleBorderView.swift in Sources */,
+				OBJ_277 /* CustomGradientView.swift in Sources */,
+				OBJ_278 /* DiagonalGradientView.swift in Sources */,
+				OBJ_279 /* MonthAndYearPicker.swift in Sources */,
+				OBJ_280 /* NSLayoutConstraint+SwifPlusPlus.swift in Sources */,
+				OBJ_281 /* NSLayoutContraint+Factory.swift in Sources */,
+				OBJ_282 /* PassThroughTouchView.swift in Sources */,
+				OBJ_283 /* PlaceholderTextView.swift in Sources */,
+				OBJ_284 /* RoundedBorderButton.swift in Sources */,
+				OBJ_285 /* RoundedBorderView.swift in Sources */,
+				OBJ_286 /* SectionHeaderWithButtonView.swift in Sources */,
+				OBJ_287 /* ShadowView.swift in Sources */,
+				OBJ_288 /* ThinLayoutConstraint.swift in Sources */,
+				OBJ_289 /* UIView+Animations.swift in Sources */,
+				OBJ_290 /* UIView+Constraints.swift in Sources */,
+				OBJ_291 /* UIView+Drawing.swift in Sources */,
+				OBJ_292 /* UIView+Helpers.swift in Sources */,
+				OBJ_293 /* UIView+ImageCapture.swift in Sources */,
+				OBJ_294 /* UIView+Layout.swift in Sources */,
+				OBJ_295 /* VerticalGradientView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_302 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_312 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_313 /* AlertTests.swift in Sources */,
+				OBJ_314 /* CGMathTests.swift in Sources */,
+				OBJ_315 /* ColorTests.swift in Sources */,
+				OBJ_316 /* DataSourceTypeTests.swift in Sources */,
+				OBJ_317 /* ObfuscatedDataTests.swift in Sources */,
+				OBJ_318 /* Path_ImageTests.swift in Sources */,
+				OBJ_319 /* UIView_ConstraintsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49A9585522E8FFFF00546845 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Swiftlier;
+			targetProxy = 49A9585422E8FFFF00546845 /* PBXContainerItemProxy */;
+		};
+		49A9585A22E9008900546845 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Swiftlier;
+			targetProxy = 49A9585922E9008900546845 /* PBXContainerItemProxy */;
+		};
+		49A9585F22E900A200546845 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SwiftlierUIKit::SwiftlierUIKit" /* SwiftlierUIKit */;
+			targetProxy = 49A9585E22E900A200546845 /* PBXContainerItemProxy */;
+		};
+		OBJ_307 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SwiftlierUIKit::SwiftlierUIKitTests" /* SwiftlierUIKitTests */;
+			targetProxy = 49A9584422E8F4DF00546845 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftlierUIKit.xcodeproj/SwiftlierUIKit_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftlierUIKit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SwiftlierUIKit;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftlierUIKit.xcodeproj/SwiftlierUIKit_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftlierUIKit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SwiftlierUIKit;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftlierUIKit.xcodeproj/SwiftlierUIKitTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SwiftlierUIKitTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftlierUIKit.xcodeproj/SwiftlierUIKitTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SwiftlierUIKitTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_2 /* Build configuration list for PBXProject "SwiftlierUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_234 /* Build configuration list for PBXNativeTarget "SwiftlierUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_235 /* Debug */,
+				OBJ_236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_298 /* Build configuration list for PBXNativeTarget "SwiftlierUIKitPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_299 /* Debug */,
+				OBJ_300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_304 /* Build configuration list for PBXAggregateTarget "SwiftlierUIKitPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_305 /* Debug */,
+				OBJ_306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_309 /* Build configuration list for PBXNativeTarget "SwiftlierUIKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_310 /* Debug */,
+				OBJ_311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
