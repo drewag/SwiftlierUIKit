@@ -1,7 +1,7 @@
 ![SwiftlierUIKit - UIKit helpers and improvements](https://github.com/drewag/SwiftlierUIKit/raw/master/Assets/Header.jpg)
 
-[![Swift](https://img.shields.io/badge/Swift-5.1-lightgrey.svg?colorA=28a745&colorB=4E4E4E)](https://swift.org)
-![platforms](https://img.shields.io/badge/Platforms-iOS%208%20%7C%20macOS%2010.10%20%7C%20Linux-lightgrey.svg?colorA=28a745&colorB=4E4E4E)
+[![Swift](https://img.shields.io/badge/Swift-5.0.1-lightgrey.svg?colorA=28a745&colorB=4E4E4E)](https://swift.org)
+![platforms](https://img.shields.io/badge/Platform-iOS%208-lightgrey.svg?colorA=28a745&colorB=4E4E4E)
 [![Swift Package Manager compatible](https://img.shields.io/badge/SPM-compatible-brightgreen.svg?style=flat&colorA=28a745&&colorB=4E4E4E)](https://github.com/apple/swift-package-manager)
 [![MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](/LICENSE)
 

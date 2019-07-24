@@ -4,7 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "SwiftlierUIKit",
-    platforms: [.iOS(.v8), .tvOS(.v9)],
+    platforms: [.iOS(.v8)],
     products: [
         .library(name: "SwiftlierUIKit", targets: ["SwiftlierUIKit"]),
     ],
