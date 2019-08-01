@@ -98,13 +98,13 @@ final class AlertTests: XCTestCase {
 
     func testAlertWithErrorWithNoParameters() {
         let viewController = TestViewController()
-        let error = ReportableError("making alert", because: "this was done on purpose", by: .user)
+        let error = GenericSwiftlierError("making alert", because: "this was done on purpose", byUser: true)
         viewController.showAlert(withError: error)
 
         if let alert = viewController.didPresent as? UIAlertController {
-            XCTAssertEqual(alert.title, error.alertDescription.title)
+            XCTAssertEqual(alert.title, error.title)
             XCTAssertEqual(alert.preferredStyle, .alert)
-            XCTAssertEqual(alert.message, error.alertDescription.message)
+            XCTAssertEqual(alert.message, error.alertMessage)
             XCTAssertEqual(alert.actions.count, 1)
             XCTAssertEqual(alert.actions[0].title, "OK")
             XCTAssertEqual(alert.actions[0].style, .default)
@@ -121,7 +121,7 @@ final class AlertTests: XCTestCase {
 
     func testAlertWithErrorWithParameters() {
         let viewController = TestViewController()
-        let error = ReportableError("making alert", because: "this was done on purpose", by: .user)
+        let error = GenericSwiftlierError("making alert", because: "this was done on purpose", byUser: true)
 
         var didOther = false
         var didDestroy = false
@@ -132,9 +132,9 @@ final class AlertTests: XCTestCase {
         ])
 
         if let alert = viewController.didPresent as? UIAlertController {
-            XCTAssertEqual(alert.title, error.alertDescription.title)
+            XCTAssertEqual(alert.title, error.title)
             XCTAssertEqual(alert.preferredStyle, .alert)
-            XCTAssertEqual(alert.message, error.alertDescription.message)
+            XCTAssertEqual(alert.message, error.alertMessage)
             XCTAssertEqual(alert.actions.count, 2)
             if #available(iOS 9.0, *) {
                 XCTAssertNil(alert.preferredAction)

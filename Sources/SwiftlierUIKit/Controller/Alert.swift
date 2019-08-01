@@ -12,7 +12,7 @@ import ObjectiveC
 
 var MakeAlertAction: (String?, UIAlertAction.Style, ((UIAlertAction) -> Swift.Void)?) -> UIAlertAction = UIAlertAction.init
 
-public class ErrorOccured: EventType { public typealias CallbackParam = ReportableError }
+public class ErrorOccured: EventType { public typealias CallbackParam = SwiftlierError }
 
 class Alert: NSObject {
     private let onButtonClicked: (_ buttonTitle: String?, _ textFieldText: String?) -> ()
@@ -68,13 +68,14 @@ extension UIViewController {
         other: [AlertAction] = []
         )
     {
-        self.showAlert(withError: ReportableError(doing, from: error), other: other)
+        let error = error.swiftlierError(while: doing)
+        self.showAlert(withError: error, other: other)
     }
 }
 
 extension UIViewController {
     public func showAlert(
-        withError error: ReportableError,
+        withError error: SwiftlierError,
         other: [AlertAction] = []
         )
     {
@@ -90,8 +91,8 @@ extension UIViewController {
 
         EventCenter.defaultCenter().triggerEvent(ErrorOccured.self, params: error)
         self.showAlert(
-            withTitle: error.alertDescription.title,
-            message: error.alertDescription.message,
+            withTitle: error.title,
+            message: error.alertMessage,
             other: other
         )
     }

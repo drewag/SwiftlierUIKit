@@ -11,7 +11,7 @@ import Swiftlier
 
 public enum TaskResult {
     case success
-    case error(ReportableError)
+    case error(SwiftlierError)
 }
 
 public final class TaskService {

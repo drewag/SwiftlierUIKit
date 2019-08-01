@@ -74,15 +74,14 @@ open class FormViewController: UITableViewController {
             case .passed:
                 break
             case .failed:
-                throw ReportableError("saving", because: "of an unknown reason", by: .user)
+                throw GenericSwiftlierError("saving", because: "of an unknown reason", byUser: true)
             case .failedWithReason(let reason):
-                throw ReportableError("saving", because: reason, by: .user)
+                throw GenericSwiftlierError("saving", because: reason, byUser: true)
             }
             self.submit()
         }
         catch let error {
-            let error = ReportableError("saving", from: error)
-            self.showAlert(withError: error)
+            self.showAlert(withError: error, "saving")
         }
     }
 

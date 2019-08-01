@@ -97,9 +97,9 @@ public struct Form {
                 case .passed:
                     continue
                 case .failed:
-                    throw ReportableError("saving", because: "\(field.label) is not valid", by: .user)
+                    throw GenericSwiftlierError("saving", because: "\(field.label) is not valid", byUser: true)
                 case .failedWithReason(let reason):
-                    throw ReportableError("saving", because: "\(field.label) \(reason)", by: .user)
+                    throw GenericSwiftlierError("saving", because: "\(field.label) \(reason)", byUser: true)
                 }
             }
         }

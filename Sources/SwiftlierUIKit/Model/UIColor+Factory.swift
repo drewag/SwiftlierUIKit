@@ -35,7 +35,7 @@ extension UIColor {
             case 6:
                 finalHexString = "#" + withoutHash
             default:
-                throw ReportableError("creating color from hex string", because: "it is an invalid length (only 2, 3, or 6 is valid)")
+                throw GenericSwiftlierError("creating color from hex string", because: "it is an invalid length (only 2, 3, or 6 is valid)")
         }
 
         var rgbValue: UInt32 = 0

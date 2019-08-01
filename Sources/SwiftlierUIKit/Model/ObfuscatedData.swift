@@ -28,7 +28,7 @@ public struct ObfuscatedData {
 
     public init(clear: Data, keepPlain: Data?, secret: Data) throws {
         guard let iv = Data(secRandomOfCount: ObfuscatedData.ivLength) else {
-            throw ReportableError("obfuscating data", because: "an iv couldn't be generated")
+            throw GenericSwiftlierError("obfuscating data", because: "an iv couldn't be generated")
         }
         self.keptPlainCount = keepPlain?.count ?? 0
 
@@ -44,7 +44,7 @@ public struct ObfuscatedData {
 
     public init(obfuscated: Data, keptPlainCount: Int) throws {
         guard obfuscated.count >= keptPlainCount + ObfuscatedData.ivLength else {
-            throw ReportableError("revealing data", because: "the data is too short")
+            throw GenericSwiftlierError("revealing data", because: "the data is too short")
         }
 
         self.obfuscated = obfuscated
