@@ -110,7 +110,6 @@
 		OBJ_268 /* ZoomThroughTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* ZoomThroughTransition.swift */; };
 		OBJ_269 /* Date+DispatchTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* Date+DispatchTime.swift */; };
 		OBJ_270 /* EnergyFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* EnergyFormatting.swift */; };
-		OBJ_271 /* FileSystem+Directories.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* FileSystem+Directories.swift */; };
 		OBJ_272 /* Float+Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* Float+Factory.swift */; };
 		OBJ_273 /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* Form.swift */; };
 		OBJ_274 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* Menu.swift */; };
@@ -251,7 +250,6 @@
 		OBJ_30 /* ZoomThroughTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomThroughTransition.swift; sourceTree = "<group>"; };
 		OBJ_32 /* Date+DispatchTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+DispatchTime.swift"; sourceTree = "<group>"; };
 		OBJ_33 /* EnergyFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyFormatting.swift; sourceTree = "<group>"; };
-		OBJ_34 /* FileSystem+Directories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileSystem+Directories.swift"; sourceTree = "<group>"; };
 		OBJ_35 /* Float+Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+Factory.swift"; sourceTree = "<group>"; };
 		OBJ_36 /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
 		OBJ_37 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
@@ -474,7 +472,6 @@
 			children = (
 				OBJ_32 /* Date+DispatchTime.swift */,
 				OBJ_33 /* EnergyFormatting.swift */,
-				OBJ_34 /* FileSystem+Directories.swift */,
 				OBJ_35 /* Float+Factory.swift */,
 				OBJ_36 /* Form.swift */,
 				OBJ_37 /* Menu.swift */,
@@ -520,7 +517,7 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -534,7 +531,6 @@
 				OBJ_166 /* README.md */,
 				496919B622F26CE300666708 /* Frameworks */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -777,7 +773,7 @@
 				English,
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_159 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -899,7 +895,6 @@
 				OBJ_268 /* ZoomThroughTransition.swift in Sources */,
 				OBJ_269 /* Date+DispatchTime.swift in Sources */,
 				OBJ_270 /* EnergyFormatting.swift in Sources */,
-				OBJ_271 /* FileSystem+Directories.swift in Sources */,
 				OBJ_272 /* Float+Factory.swift in Sources */,
 				OBJ_273 /* Form.swift in Sources */,
 				OBJ_274 /* Menu.swift in Sources */,
