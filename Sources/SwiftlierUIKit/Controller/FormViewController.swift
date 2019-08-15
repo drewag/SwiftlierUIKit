@@ -646,7 +646,7 @@ private class SimpleFieldTableViewCell: UITableViewCell {
         if let button = self.clearButton {
             let rightConstraint: NSLayoutConstraint
             if #available(iOS 9.0, *) {
-                rightConstraint = self.contentView.readableContentGuide.leftAnchor.constraint(equalTo: button.leftAnchor)
+                rightConstraint = self.contentView.readableContentGuide.rightAnchor.constraint(equalTo: button.rightAnchor)
                 rightConstraint.isActive = true
             } else {
                 rightConstraint = self.contentView.constrain(.right, of: button, plus: 12)
@@ -660,7 +660,7 @@ private class SimpleFieldTableViewCell: UITableViewCell {
         else {
             let rightConstraint: NSLayoutConstraint
             if #available(iOS 9.0, *) {
-                rightConstraint = self.contentView.readableContentGuide.leftAnchor.constraint(equalTo: self.valueField.leftAnchor)
+                rightConstraint = self.contentView.readableContentGuide.rightAnchor.constraint(equalTo: self.valueField.rightAnchor)
                 rightConstraint.isActive = true
             } else {
                 rightConstraint = self.contentView.constrain(.right, of: self.valueField, plus: 12)
