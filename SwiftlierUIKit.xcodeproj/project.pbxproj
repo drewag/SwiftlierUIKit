@@ -1,1305 +1,2298 @@
 // !$*UTF8*$!
 {
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXAggregateTarget section */
-		"SwiftlierUIKit::SwiftlierUIKitPackageTests::ProductTarget" /* SwiftlierUIKitPackageTests */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = OBJ_314 /* Build configuration list for PBXAggregateTarget "SwiftlierUIKitPackageTests" */;
-			buildPhases = (
-			);
-			dependencies = (
-				OBJ_317 /* PBXTargetDependency */,
-			);
-			name = SwiftlierUIKitPackageTests;
-			productName = SwiftlierUIKitPackageTests;
-		};
-/* End PBXAggregateTarget section */
-
-/* Begin PBXBuildFile section */
-		496919B722F26CE300666708 /* Swiftlier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Swiftlier::Swiftlier::Product" /* Swiftlier.framework */; };
-		OBJ_172 /* Coding+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_84 /* Coding+Helpers.swift */; };
-		OBJ_173 /* CodingPurpose.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_85 /* CodingPurpose.swift */; };
-		OBJ_174 /* NativeTypesDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_86 /* NativeTypesDecoder.swift */; };
-		OBJ_175 /* NativeTypesEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_87 /* NativeTypesEncoder.swift */; };
-		OBJ_176 /* PercentEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_88 /* PercentEncodable.swift */; };
-		OBJ_177 /* SpecDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_89 /* SpecDecoder.swift */; };
-		OBJ_178 /* Array+Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_91 /* Array+Sorting.swift */; };
-		OBJ_179 /* Data+Processing.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_92 /* Data+Processing.swift */; };
-		OBJ_180 /* Date+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_93 /* Date+Helpers.swift */; };
-		OBJ_181 /* DispatchQueue+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_94 /* DispatchQueue+Helpers.swift */; };
-		OBJ_182 /* SequenceType+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_95 /* SequenceType+Helpers.swift */; };
-		OBJ_183 /* String+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_96 /* String+Helpers.swift */; };
-		OBJ_184 /* String+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_97 /* String+Random.swift */; };
-		OBJ_185 /* URL+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_98 /* URL+Helpers.swift */; };
-		OBJ_186 /* AnySwiftlierError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_100 /* AnySwiftlierError.swift */; };
-		OBJ_187 /* GenericSwiftlierError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_101 /* GenericSwiftlierError.swift */; };
-		OBJ_188 /* OperationBasedError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_102 /* OperationBasedError.swift */; };
-		OBJ_189 /* OtherSwiftlierError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_103 /* OtherSwiftlierError.swift */; };
-		OBJ_190 /* SwiftlierError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_104 /* SwiftlierError.swift */; };
-		OBJ_191 /* SwiftlierResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_105 /* SwiftlierResult.swift */; };
-		OBJ_192 /* FileSystem+iOSDirectories.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_107 /* FileSystem+iOSDirectories.swift */; };
-		OBJ_193 /* FileSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_108 /* FileSystem.swift */; };
-		OBJ_194 /* Path+Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_109 /* Path+Coding.swift */; };
-		OBJ_195 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_110 /* Path.swift */; };
-		OBJ_196 /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_111 /* PersistenceService.swift */; };
-		OBJ_197 /* ReferenceTypePersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_112 /* ReferenceTypePersistenceService.swift */; };
-		OBJ_198 /* ValueTypePersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_113 /* ValueTypePersistenceService.swift */; };
-		OBJ_199 /* Bool+Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_115 /* Bool+Formatting.swift */; };
-		OBJ_200 /* Data+Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_116 /* Data+Base64.swift */; };
-		OBJ_201 /* Date+Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_117 /* Date+Formatting.swift */; };
-		OBJ_202 /* Double+Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_118 /* Double+Formatting.swift */; };
-		OBJ_203 /* HeartRateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_119 /* HeartRateFormatter.swift */; };
-		OBJ_204 /* TimeInterval+Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_120 /* TimeInterval+Formatting.swift */; };
-		OBJ_205 /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_123 /* BinarySearchTree.swift */; };
-		OBJ_206 /* LimitedQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_124 /* LimitedQueue.swift */; };
-		OBJ_207 /* OrderedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_125 /* OrderedDictionary.swift */; };
-		OBJ_208 /* PatchyRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_126 /* PatchyRange.swift */; };
-		OBJ_209 /* SelectableValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_127 /* SelectableValue.swift */; };
-		OBJ_210 /* Syncable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_128 /* Syncable.swift */; };
-		OBJ_211 /* WeakWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_129 /* WeakWrapper.swift */; };
-		OBJ_212 /* EventCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_131 /* EventCenter.swift */; };
-		OBJ_213 /* MultiCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_132 /* MultiCallback.swift */; };
-		OBJ_214 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_133 /* Observable.swift */; };
-		OBJ_215 /* ObservableArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_134 /* ObservableArray.swift */; };
-		OBJ_216 /* ObservableDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_135 /* ObservableDictionary.swift */; };
-		OBJ_217 /* ObservableReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_136 /* ObservableReference.swift */; };
-		OBJ_218 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_138 /* JSON.swift */; };
-		OBJ_219 /* NativeTypesStructured.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_139 /* NativeTypesStructured.swift */; };
-		OBJ_220 /* Structured.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_140 /* Structured.swift */; };
-		OBJ_221 /* XML.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_141 /* XML.swift */; };
-		OBJ_222 /* Age.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_143 /* Age.swift */; };
-		OBJ_223 /* AlwaysEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_144 /* AlwaysEqual.swift */; };
-		OBJ_224 /* Angle.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_145 /* Angle.swift */; };
-		OBJ_225 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_146 /* Day.swift */; };
-		OBJ_226 /* EmailAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_147 /* EmailAddress.swift */; };
-		OBJ_227 /* HTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_148 /* HTML.swift */; };
-		OBJ_228 /* Mass.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_149 /* Mass.swift */; };
-		OBJ_229 /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_150 /* Price.swift */; };
-		OBJ_230 /* UniquelyIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_151 /* UniquelyIdentifiable.swift */; };
-		OBJ_231 /* CSVStreamReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_153 /* CSVStreamReader.swift */; };
-		OBJ_232 /* DelimiterStreamReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_154 /* DelimiterStreamReader.swift */; };
-		OBJ_233 /* StreamReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_155 /* StreamReader.swift */; };
-		OBJ_234 /* Date+Testable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_157 /* Date+Testable.swift */; };
-		OBJ_235 /* URLSession+Testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_158 /* URLSession+Testing.swift */; };
-		OBJ_242 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_81 /* Package.swift */; };
-		OBJ_248 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Alert.swift */; };
-		OBJ_249 /* DataSourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* DataSourceType.swift */; };
-		OBJ_250 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* DatePickerViewController.swift */; };
-		OBJ_251 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* FormViewController.swift */; };
-		OBJ_252 /* KeyboardConstraintAdjuster.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* KeyboardConstraintAdjuster.swift */; };
-		OBJ_253 /* KeyboardTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* KeyboardTracker.swift */; };
-		OBJ_254 /* LayeredTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* LayeredTableViewController.swift */; };
-		OBJ_255 /* LimitedSizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* LimitedSizeViewController.swift */; };
-		OBJ_256 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* MenuViewController.swift */; };
-		OBJ_257 /* SelectListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* SelectListViewController.swift */; };
-		OBJ_258 /* TaskService.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* TaskService.swift */; };
-		OBJ_259 /* UIBarButtonItem+BlockTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* UIBarButtonItem+BlockTarget.swift */; };
-		OBJ_260 /* UIButton+BlockTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* UIButton+BlockTarget.swift */; };
-		OBJ_261 /* UICollectionView+EasyRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* UICollectionView+EasyRegister.swift */; };
-		OBJ_262 /* UINavigationController+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* UINavigationController+Helpers.swift */; };
-		OBJ_263 /* UITableView+EasyRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* UITableView+EasyRegister.swift */; };
-		OBJ_264 /* UIViewController+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* UIViewController+Helpers.swift */; };
-		OBJ_265 /* UIViewController+PhotoViewing.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* UIViewController+PhotoViewing.swift */; };
-		OBJ_266 /* UIViewController+Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* UIViewController+Transitions.swift */; };
-		OBJ_267 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* WebViewController.swift */; };
-		OBJ_268 /* ZoomThroughTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* ZoomThroughTransition.swift */; };
-		OBJ_269 /* Date+DispatchTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* Date+DispatchTime.swift */; };
-		OBJ_270 /* EnergyFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* EnergyFormatting.swift */; };
-		OBJ_272 /* Float+Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* Float+Factory.swift */; };
-		OBJ_273 /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* Form.swift */; };
-		OBJ_274 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* Menu.swift */; };
-		OBJ_275 /* ObfuscatedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* ObfuscatedData.swift */; };
-		OBJ_276 /* ObservableArray+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* ObservableArray+UI.swift */; };
-		OBJ_277 /* Path+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* Path+Image.swift */; };
-		OBJ_278 /* Transformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* Transformation.swift */; };
-		OBJ_279 /* UIColor+Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* UIColor+Encodable.swift */; };
-		OBJ_280 /* UIColor+Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* UIColor+Factory.swift */; };
-		OBJ_281 /* UIDevice+AppIdioms.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* UIDevice+AppIdioms.swift */; };
-		OBJ_282 /* UIImage+Editing.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* UIImage+Editing.swift */; };
-		OBJ_283 /* BubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* BubbleView.swift */; };
-		OBJ_284 /* CGContext+ThreadSafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* CGContext+ThreadSafe.swift */; };
-		OBJ_285 /* CGMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* CGMath.swift */; };
-		OBJ_286 /* CircleBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* CircleBorderView.swift */; };
-		OBJ_287 /* CustomGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* CustomGradientView.swift */; };
-		OBJ_288 /* DiagonalGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* DiagonalGradientView.swift */; };
-		OBJ_289 /* MonthAndYearPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* MonthAndYearPicker.swift */; };
-		OBJ_290 /* NSLayoutConstraint+SwifPlusPlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* NSLayoutConstraint+SwifPlusPlus.swift */; };
-		OBJ_291 /* NSLayoutContraint+Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* NSLayoutContraint+Factory.swift */; };
-		OBJ_292 /* PassThroughTouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* PassThroughTouchView.swift */; };
-		OBJ_293 /* PlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* PlaceholderTextView.swift */; };
-		OBJ_294 /* RoundedBorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_58 /* RoundedBorderButton.swift */; };
-		OBJ_295 /* RoundedBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_59 /* RoundedBorderView.swift */; };
-		OBJ_296 /* SectionHeaderWithButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_60 /* SectionHeaderWithButtonView.swift */; };
-		OBJ_297 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_61 /* ShadowView.swift */; };
-		OBJ_298 /* ThinLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_62 /* ThinLayoutConstraint.swift */; };
-		OBJ_299 /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_63 /* UIView+Animations.swift */; };
-		OBJ_300 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_64 /* UIView+Constraints.swift */; };
-		OBJ_301 /* UIView+Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* UIView+Drawing.swift */; };
-		OBJ_302 /* UIView+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_66 /* UIView+Helpers.swift */; };
-		OBJ_303 /* UIView+ImageCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_67 /* UIView+ImageCapture.swift */; };
-		OBJ_304 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_68 /* UIView+Layout.swift */; };
-		OBJ_305 /* VerticalGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* VerticalGradientView.swift */; };
-		OBJ_312 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_323 /* AlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_72 /* AlertTests.swift */; };
-		OBJ_324 /* CGMathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_73 /* CGMathTests.swift */; };
-		OBJ_325 /* ColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_74 /* ColorTests.swift */; };
-		OBJ_326 /* DataSourceTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_75 /* DataSourceTypeTests.swift */; };
-		OBJ_327 /* ObfuscatedDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_76 /* ObfuscatedDataTests.swift */; };
-		OBJ_328 /* Path_ImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_77 /* Path_ImageTests.swift */; };
-		OBJ_329 /* UIView_ConstraintsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_78 /* UIView_ConstraintsTests.swift */; };
-		OBJ_331 /* Swiftlier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Swiftlier::Swiftlier::Product" /* Swiftlier.framework */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		496919B422F26C3700666708 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Swiftlier::Swiftlier";
-			remoteInfo = Swiftlier;
-		};
-		496919B522F26C3900666708 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "SwiftlierUIKit::SwiftlierUIKitTests";
-			remoteInfo = SwiftlierUIKitTests;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		OBJ_10 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
-		OBJ_100 /* AnySwiftlierError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnySwiftlierError.swift; sourceTree = "<group>"; };
-		OBJ_101 /* GenericSwiftlierError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericSwiftlierError.swift; sourceTree = "<group>"; };
-		OBJ_102 /* OperationBasedError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationBasedError.swift; sourceTree = "<group>"; };
-		OBJ_103 /* OtherSwiftlierError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherSwiftlierError.swift; sourceTree = "<group>"; };
-		OBJ_104 /* SwiftlierError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftlierError.swift; sourceTree = "<group>"; };
-		OBJ_105 /* SwiftlierResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftlierResult.swift; sourceTree = "<group>"; };
-		OBJ_107 /* FileSystem+iOSDirectories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileSystem+iOSDirectories.swift"; sourceTree = "<group>"; };
-		OBJ_108 /* FileSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSystem.swift; sourceTree = "<group>"; };
-		OBJ_109 /* Path+Coding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Path+Coding.swift"; sourceTree = "<group>"; };
-		OBJ_11 /* DataSourceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceType.swift; sourceTree = "<group>"; };
-		OBJ_110 /* Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
-		OBJ_111 /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
-		OBJ_112 /* ReferenceTypePersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceTypePersistenceService.swift; sourceTree = "<group>"; };
-		OBJ_113 /* ValueTypePersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueTypePersistenceService.swift; sourceTree = "<group>"; };
-		OBJ_115 /* Bool+Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool+Formatting.swift"; sourceTree = "<group>"; };
-		OBJ_116 /* Data+Base64.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Base64.swift"; sourceTree = "<group>"; };
-		OBJ_117 /* Date+Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Formatting.swift"; sourceTree = "<group>"; };
-		OBJ_118 /* Double+Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Formatting.swift"; sourceTree = "<group>"; };
-		OBJ_119 /* HeartRateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateFormatter.swift; sourceTree = "<group>"; };
-		OBJ_12 /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
-		OBJ_120 /* TimeInterval+Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeInterval+Formatting.swift"; sourceTree = "<group>"; };
-		OBJ_123 /* BinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
-		OBJ_124 /* LimitedQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitedQueue.swift; sourceTree = "<group>"; };
-		OBJ_125 /* OrderedDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderedDictionary.swift; sourceTree = "<group>"; };
-		OBJ_126 /* PatchyRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchyRange.swift; sourceTree = "<group>"; };
-		OBJ_127 /* SelectableValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableValue.swift; sourceTree = "<group>"; };
-		OBJ_128 /* Syncable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Syncable.swift; sourceTree = "<group>"; };
-		OBJ_129 /* WeakWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakWrapper.swift; sourceTree = "<group>"; };
-		OBJ_13 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
-		OBJ_131 /* EventCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCenter.swift; sourceTree = "<group>"; };
-		OBJ_132 /* MultiCallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiCallback.swift; sourceTree = "<group>"; };
-		OBJ_133 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
-		OBJ_134 /* ObservableArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableArray.swift; sourceTree = "<group>"; };
-		OBJ_135 /* ObservableDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableDictionary.swift; sourceTree = "<group>"; };
-		OBJ_136 /* ObservableReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableReference.swift; sourceTree = "<group>"; };
-		OBJ_138 /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
-		OBJ_139 /* NativeTypesStructured.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeTypesStructured.swift; sourceTree = "<group>"; };
-		OBJ_14 /* KeyboardConstraintAdjuster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardConstraintAdjuster.swift; sourceTree = "<group>"; };
-		OBJ_140 /* Structured.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structured.swift; sourceTree = "<group>"; };
-		OBJ_141 /* XML.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XML.swift; sourceTree = "<group>"; };
-		OBJ_143 /* Age.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Age.swift; sourceTree = "<group>"; };
-		OBJ_144 /* AlwaysEqual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlwaysEqual.swift; sourceTree = "<group>"; };
-		OBJ_145 /* Angle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Angle.swift; sourceTree = "<group>"; };
-		OBJ_146 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
-		OBJ_147 /* EmailAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailAddress.swift; sourceTree = "<group>"; };
-		OBJ_148 /* HTML.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTML.swift; sourceTree = "<group>"; };
-		OBJ_149 /* Mass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mass.swift; sourceTree = "<group>"; };
-		OBJ_15 /* KeyboardTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardTracker.swift; sourceTree = "<group>"; };
-		OBJ_150 /* Price.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
-		OBJ_151 /* UniquelyIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniquelyIdentifiable.swift; sourceTree = "<group>"; };
-		OBJ_153 /* CSVStreamReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVStreamReader.swift; sourceTree = "<group>"; };
-		OBJ_154 /* DelimiterStreamReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelimiterStreamReader.swift; sourceTree = "<group>"; };
-		OBJ_155 /* StreamReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamReader.swift; sourceTree = "<group>"; };
-		OBJ_157 /* Date+Testable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Testable.swift"; sourceTree = "<group>"; };
-		OBJ_158 /* URLSession+Testing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+Testing.swift"; sourceTree = "<group>"; };
-		OBJ_16 /* LayeredTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayeredTableViewController.swift; sourceTree = "<group>"; };
-		OBJ_163 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = SOURCE_ROOT; };
-		OBJ_164 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		OBJ_165 /* azure-pipelines.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = "azure-pipelines.yml"; sourceTree = "<group>"; };
-		OBJ_166 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		OBJ_17 /* LimitedSizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitedSizeViewController.swift; sourceTree = "<group>"; };
-		OBJ_18 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
-		OBJ_19 /* SelectListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectListViewController.swift; sourceTree = "<group>"; };
-		OBJ_20 /* TaskService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskService.swift; sourceTree = "<group>"; };
-		OBJ_21 /* UIBarButtonItem+BlockTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+BlockTarget.swift"; sourceTree = "<group>"; };
-		OBJ_22 /* UIButton+BlockTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+BlockTarget.swift"; sourceTree = "<group>"; };
-		OBJ_23 /* UICollectionView+EasyRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+EasyRegister.swift"; sourceTree = "<group>"; };
-		OBJ_24 /* UINavigationController+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Helpers.swift"; sourceTree = "<group>"; };
-		OBJ_25 /* UITableView+EasyRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+EasyRegister.swift"; sourceTree = "<group>"; };
-		OBJ_26 /* UIViewController+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Helpers.swift"; sourceTree = "<group>"; };
-		OBJ_27 /* UIViewController+PhotoViewing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+PhotoViewing.swift"; sourceTree = "<group>"; };
-		OBJ_28 /* UIViewController+Transitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Transitions.swift"; sourceTree = "<group>"; };
-		OBJ_29 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
-		OBJ_30 /* ZoomThroughTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomThroughTransition.swift; sourceTree = "<group>"; };
-		OBJ_32 /* Date+DispatchTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+DispatchTime.swift"; sourceTree = "<group>"; };
-		OBJ_33 /* EnergyFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyFormatting.swift; sourceTree = "<group>"; };
-		OBJ_35 /* Float+Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+Factory.swift"; sourceTree = "<group>"; };
-		OBJ_36 /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
-		OBJ_37 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
-		OBJ_38 /* ObfuscatedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObfuscatedData.swift; sourceTree = "<group>"; };
-		OBJ_39 /* ObservableArray+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObservableArray+UI.swift"; sourceTree = "<group>"; };
-		OBJ_40 /* Path+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Path+Image.swift"; sourceTree = "<group>"; };
-		OBJ_41 /* Transformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transformation.swift; sourceTree = "<group>"; };
-		OBJ_42 /* UIColor+Encodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Encodable.swift"; sourceTree = "<group>"; };
-		OBJ_43 /* UIColor+Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Factory.swift"; sourceTree = "<group>"; };
-		OBJ_44 /* UIDevice+AppIdioms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+AppIdioms.swift"; sourceTree = "<group>"; };
-		OBJ_45 /* UIImage+Editing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Editing.swift"; sourceTree = "<group>"; };
-		OBJ_47 /* BubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleView.swift; sourceTree = "<group>"; };
-		OBJ_48 /* CGContext+ThreadSafe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGContext+ThreadSafe.swift"; sourceTree = "<group>"; };
-		OBJ_49 /* CGMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGMath.swift; sourceTree = "<group>"; };
-		OBJ_50 /* CircleBorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleBorderView.swift; sourceTree = "<group>"; };
-		OBJ_51 /* CustomGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGradientView.swift; sourceTree = "<group>"; };
-		OBJ_52 /* DiagonalGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagonalGradientView.swift; sourceTree = "<group>"; };
-		OBJ_53 /* MonthAndYearPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthAndYearPicker.swift; sourceTree = "<group>"; };
-		OBJ_54 /* NSLayoutConstraint+SwifPlusPlus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+SwifPlusPlus.swift"; sourceTree = "<group>"; };
-		OBJ_55 /* NSLayoutContraint+Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLayoutContraint+Factory.swift"; sourceTree = "<group>"; };
-		OBJ_56 /* PassThroughTouchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassThroughTouchView.swift; sourceTree = "<group>"; };
-		OBJ_57 /* PlaceholderTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderTextView.swift; sourceTree = "<group>"; };
-		OBJ_58 /* RoundedBorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedBorderButton.swift; sourceTree = "<group>"; };
-		OBJ_59 /* RoundedBorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedBorderView.swift; sourceTree = "<group>"; };
-		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		OBJ_60 /* SectionHeaderWithButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderWithButtonView.swift; sourceTree = "<group>"; };
-		OBJ_61 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
-		OBJ_62 /* ThinLayoutConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinLayoutConstraint.swift; sourceTree = "<group>"; };
-		OBJ_63 /* UIView+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Animations.swift"; sourceTree = "<group>"; };
-		OBJ_64 /* UIView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
-		OBJ_65 /* UIView+Drawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Drawing.swift"; sourceTree = "<group>"; };
-		OBJ_66 /* UIView+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Helpers.swift"; sourceTree = "<group>"; };
-		OBJ_67 /* UIView+ImageCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ImageCapture.swift"; sourceTree = "<group>"; };
-		OBJ_68 /* UIView+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
-		OBJ_69 /* VerticalGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalGradientView.swift; sourceTree = "<group>"; };
-		OBJ_72 /* AlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTests.swift; sourceTree = "<group>"; };
-		OBJ_73 /* CGMathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGMathTests.swift; sourceTree = "<group>"; };
-		OBJ_74 /* ColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTests.swift; sourceTree = "<group>"; };
-		OBJ_75 /* DataSourceTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceTypeTests.swift; sourceTree = "<group>"; };
-		OBJ_76 /* ObfuscatedDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObfuscatedDataTests.swift; sourceTree = "<group>"; };
-		OBJ_77 /* Path_ImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path_ImageTests.swift; sourceTree = "<group>"; };
-		OBJ_78 /* UIView_ConstraintsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView_ConstraintsTests.swift; sourceTree = "<group>"; };
-		OBJ_81 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/andrew/git/learn-brigade/ed-suite/ios/SwiftlierUIKit/.build/checkouts/Swiftlier/Package.swift"; sourceTree = "<group>"; };
-		OBJ_84 /* Coding+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Coding+Helpers.swift"; sourceTree = "<group>"; };
-		OBJ_85 /* CodingPurpose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodingPurpose.swift; sourceTree = "<group>"; };
-		OBJ_86 /* NativeTypesDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeTypesDecoder.swift; sourceTree = "<group>"; };
-		OBJ_87 /* NativeTypesEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeTypesEncoder.swift; sourceTree = "<group>"; };
-		OBJ_88 /* PercentEncodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentEncodable.swift; sourceTree = "<group>"; };
-		OBJ_89 /* SpecDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecDecoder.swift; sourceTree = "<group>"; };
-		OBJ_91 /* Array+Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Sorting.swift"; sourceTree = "<group>"; };
-		OBJ_92 /* Data+Processing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Processing.swift"; sourceTree = "<group>"; };
-		OBJ_93 /* Date+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Helpers.swift"; sourceTree = "<group>"; };
-		OBJ_94 /* DispatchQueue+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Helpers.swift"; sourceTree = "<group>"; };
-		OBJ_95 /* SequenceType+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SequenceType+Helpers.swift"; sourceTree = "<group>"; };
-		OBJ_96 /* String+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Helpers.swift"; sourceTree = "<group>"; };
-		OBJ_97 /* String+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Random.swift"; sourceTree = "<group>"; };
-		OBJ_98 /* URL+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Helpers.swift"; sourceTree = "<group>"; };
-		"Swiftlier::Swiftlier::Product" /* Swiftlier.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Swiftlier.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"SwiftlierUIKit::SwiftlierUIKit::Product" /* SwiftlierUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftlierUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"SwiftlierUIKit::SwiftlierUIKitTests::Product" /* SwiftlierUIKitTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SwiftlierUIKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		OBJ_236 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_306 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-				496919B722F26CE300666708 /* Swiftlier.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_330 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_331 /* Swiftlier.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		496919B622F26CE300666708 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		OBJ_106 /* FileSystem */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_107 /* FileSystem+iOSDirectories.swift */,
-				OBJ_108 /* FileSystem.swift */,
-				OBJ_109 /* Path+Coding.swift */,
-				OBJ_110 /* Path.swift */,
-				OBJ_111 /* PersistenceService.swift */,
-				OBJ_112 /* ReferenceTypePersistenceService.swift */,
-				OBJ_113 /* ValueTypePersistenceService.swift */,
-			);
-			path = FileSystem;
-			sourceTree = "<group>";
-		};
-		OBJ_114 /* Formatting */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_115 /* Bool+Formatting.swift */,
-				OBJ_116 /* Data+Base64.swift */,
-				OBJ_117 /* Date+Formatting.swift */,
-				OBJ_118 /* Double+Formatting.swift */,
-				OBJ_119 /* HeartRateFormatter.swift */,
-				OBJ_120 /* TimeInterval+Formatting.swift */,
-			);
-			path = Formatting;
-			sourceTree = "<group>";
-		};
-		OBJ_121 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_122 /* Containers */,
-				OBJ_130 /* Observable */,
-				OBJ_137 /* Structured */,
-				OBJ_142 /* Types */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		OBJ_122 /* Containers */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_123 /* BinarySearchTree.swift */,
-				OBJ_124 /* LimitedQueue.swift */,
-				OBJ_125 /* OrderedDictionary.swift */,
-				OBJ_126 /* PatchyRange.swift */,
-				OBJ_127 /* SelectableValue.swift */,
-				OBJ_128 /* Syncable.swift */,
-				OBJ_129 /* WeakWrapper.swift */,
-			);
-			path = Containers;
-			sourceTree = "<group>";
-		};
-		OBJ_130 /* Observable */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_131 /* EventCenter.swift */,
-				OBJ_132 /* MultiCallback.swift */,
-				OBJ_133 /* Observable.swift */,
-				OBJ_134 /* ObservableArray.swift */,
-				OBJ_135 /* ObservableDictionary.swift */,
-				OBJ_136 /* ObservableReference.swift */,
-			);
-			path = Observable;
-			sourceTree = "<group>";
-		};
-		OBJ_137 /* Structured */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_138 /* JSON.swift */,
-				OBJ_139 /* NativeTypesStructured.swift */,
-				OBJ_140 /* Structured.swift */,
-				OBJ_141 /* XML.swift */,
-			);
-			path = Structured;
-			sourceTree = "<group>";
-		};
-		OBJ_142 /* Types */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_143 /* Age.swift */,
-				OBJ_144 /* AlwaysEqual.swift */,
-				OBJ_145 /* Angle.swift */,
-				OBJ_146 /* Day.swift */,
-				OBJ_147 /* EmailAddress.swift */,
-				OBJ_148 /* HTML.swift */,
-				OBJ_149 /* Mass.swift */,
-				OBJ_150 /* Price.swift */,
-				OBJ_151 /* UniquelyIdentifiable.swift */,
-			);
-			path = Types;
-			sourceTree = "<group>";
-		};
-		OBJ_152 /* Streams */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_153 /* CSVStreamReader.swift */,
-				OBJ_154 /* DelimiterStreamReader.swift */,
-				OBJ_155 /* StreamReader.swift */,
-			);
-			path = Streams;
-			sourceTree = "<group>";
-		};
-		OBJ_156 /* Testing */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_157 /* Date+Testable.swift */,
-				OBJ_158 /* URLSession+Testing.swift */,
-			);
-			path = Testing;
-			sourceTree = "<group>";
-		};
-		OBJ_159 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				"SwiftlierUIKit::SwiftlierUIKit::Product" /* SwiftlierUIKit.framework */,
-				"Swiftlier::Swiftlier::Product" /* Swiftlier.framework */,
-				"SwiftlierUIKit::SwiftlierUIKitTests::Product" /* SwiftlierUIKitTests.xctest */,
-			);
-			name = Products;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		OBJ_31 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_32 /* Date+DispatchTime.swift */,
-				OBJ_33 /* EnergyFormatting.swift */,
-				OBJ_35 /* Float+Factory.swift */,
-				OBJ_36 /* Form.swift */,
-				OBJ_37 /* Menu.swift */,
-				OBJ_38 /* ObfuscatedData.swift */,
-				OBJ_39 /* ObservableArray+UI.swift */,
-				OBJ_40 /* Path+Image.swift */,
-				OBJ_41 /* Transformation.swift */,
-				OBJ_42 /* UIColor+Encodable.swift */,
-				OBJ_43 /* UIColor+Factory.swift */,
-				OBJ_44 /* UIDevice+AppIdioms.swift */,
-				OBJ_45 /* UIImage+Editing.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		OBJ_46 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_47 /* BubbleView.swift */,
-				OBJ_48 /* CGContext+ThreadSafe.swift */,
-				OBJ_49 /* CGMath.swift */,
-				OBJ_50 /* CircleBorderView.swift */,
-				OBJ_51 /* CustomGradientView.swift */,
-				OBJ_52 /* DiagonalGradientView.swift */,
-				OBJ_53 /* MonthAndYearPicker.swift */,
-				OBJ_54 /* NSLayoutConstraint+SwifPlusPlus.swift */,
-				OBJ_55 /* NSLayoutContraint+Factory.swift */,
-				OBJ_56 /* PassThroughTouchView.swift */,
-				OBJ_57 /* PlaceholderTextView.swift */,
-				OBJ_58 /* RoundedBorderButton.swift */,
-				OBJ_59 /* RoundedBorderView.swift */,
-				OBJ_60 /* SectionHeaderWithButtonView.swift */,
-				OBJ_61 /* ShadowView.swift */,
-				OBJ_62 /* ThinLayoutConstraint.swift */,
-				OBJ_63 /* UIView+Animations.swift */,
-				OBJ_64 /* UIView+Constraints.swift */,
-				OBJ_65 /* UIView+Drawing.swift */,
-				OBJ_66 /* UIView+Helpers.swift */,
-				OBJ_67 /* UIView+ImageCapture.swift */,
-				OBJ_68 /* UIView+Layout.swift */,
-				OBJ_69 /* VerticalGradientView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		OBJ_5 = {
-			isa = PBXGroup;
-			children = (
-				OBJ_6 /* Package.swift */,
-				OBJ_7 /* Sources */,
-				OBJ_70 /* Tests */,
-				OBJ_79 /* Dependencies */,
-				OBJ_159 /* Products */,
-				OBJ_163 /* Assets */,
-				OBJ_164 /* LICENSE */,
-				OBJ_165 /* azure-pipelines.yml */,
-				OBJ_166 /* README.md */,
-				496919B622F26CE300666708 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		OBJ_7 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_8 /* SwiftlierUIKit */,
-			);
-			path = Sources;
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_70 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_71 /* SwiftlierUIKitTests */,
-			);
-			name = Tests;
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_71 /* SwiftlierUIKitTests */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_72 /* AlertTests.swift */,
-				OBJ_73 /* CGMathTests.swift */,
-				OBJ_74 /* ColorTests.swift */,
-				OBJ_75 /* DataSourceTypeTests.swift */,
-				OBJ_76 /* ObfuscatedDataTests.swift */,
-				OBJ_77 /* Path_ImageTests.swift */,
-				OBJ_78 /* UIView_ConstraintsTests.swift */,
-			);
-			name = SwiftlierUIKitTests;
-			path = Tests/SwiftlierUIKitTests;
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_79 /* Dependencies */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_80 /* Swiftlier 5.2.0 */,
-			);
-			name = Dependencies;
-			sourceTree = "<group>";
-		};
-		OBJ_8 /* SwiftlierUIKit */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_9 /* Controller */,
-				OBJ_31 /* Model */,
-				OBJ_46 /* View */,
-			);
-			path = SwiftlierUIKit;
-			sourceTree = "<group>";
-		};
-		OBJ_80 /* Swiftlier 5.2.0 */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_81 /* Package.swift */,
-				OBJ_82 /* Swiftlier */,
-			);
-			name = "Swiftlier 5.2.0";
-			path = .build/checkouts/Swiftlier/Sources;
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_82 /* Swiftlier */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_83 /* Coding */,
-				OBJ_90 /* Enhancements */,
-				OBJ_99 /* Errors */,
-				OBJ_106 /* FileSystem */,
-				OBJ_114 /* Formatting */,
-				OBJ_121 /* Model */,
-				OBJ_152 /* Streams */,
-				OBJ_156 /* Testing */,
-			);
-			path = Swiftlier;
-			sourceTree = "<group>";
-		};
-		OBJ_83 /* Coding */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_84 /* Coding+Helpers.swift */,
-				OBJ_85 /* CodingPurpose.swift */,
-				OBJ_86 /* NativeTypesDecoder.swift */,
-				OBJ_87 /* NativeTypesEncoder.swift */,
-				OBJ_88 /* PercentEncodable.swift */,
-				OBJ_89 /* SpecDecoder.swift */,
-			);
-			path = Coding;
-			sourceTree = "<group>";
-		};
-		OBJ_9 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_10 /* Alert.swift */,
-				OBJ_11 /* DataSourceType.swift */,
-				OBJ_12 /* DatePickerViewController.swift */,
-				OBJ_13 /* FormViewController.swift */,
-				OBJ_14 /* KeyboardConstraintAdjuster.swift */,
-				OBJ_15 /* KeyboardTracker.swift */,
-				OBJ_16 /* LayeredTableViewController.swift */,
-				OBJ_17 /* LimitedSizeViewController.swift */,
-				OBJ_18 /* MenuViewController.swift */,
-				OBJ_19 /* SelectListViewController.swift */,
-				OBJ_20 /* TaskService.swift */,
-				OBJ_21 /* UIBarButtonItem+BlockTarget.swift */,
-				OBJ_22 /* UIButton+BlockTarget.swift */,
-				OBJ_23 /* UICollectionView+EasyRegister.swift */,
-				OBJ_24 /* UINavigationController+Helpers.swift */,
-				OBJ_25 /* UITableView+EasyRegister.swift */,
-				OBJ_26 /* UIViewController+Helpers.swift */,
-				OBJ_27 /* UIViewController+PhotoViewing.swift */,
-				OBJ_28 /* UIViewController+Transitions.swift */,
-				OBJ_29 /* WebViewController.swift */,
-				OBJ_30 /* ZoomThroughTransition.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		OBJ_90 /* Enhancements */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_91 /* Array+Sorting.swift */,
-				OBJ_92 /* Data+Processing.swift */,
-				OBJ_93 /* Date+Helpers.swift */,
-				OBJ_94 /* DispatchQueue+Helpers.swift */,
-				OBJ_95 /* SequenceType+Helpers.swift */,
-				OBJ_96 /* String+Helpers.swift */,
-				OBJ_97 /* String+Random.swift */,
-				OBJ_98 /* URL+Helpers.swift */,
-			);
-			path = Enhancements;
-			sourceTree = "<group>";
-		};
-		OBJ_99 /* Errors */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_100 /* AnySwiftlierError.swift */,
-				OBJ_101 /* GenericSwiftlierError.swift */,
-				OBJ_102 /* OperationBasedError.swift */,
-				OBJ_103 /* OtherSwiftlierError.swift */,
-				OBJ_104 /* SwiftlierError.swift */,
-				OBJ_105 /* SwiftlierResult.swift */,
-			);
-			path = Errors;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		"Swiftlier::SwiftPMPackageDescription" /* SwiftlierPackageDescription */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_238 /* Build configuration list for PBXNativeTarget "SwiftlierPackageDescription" */;
-			buildPhases = (
-				OBJ_241 /* Sources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SwiftlierPackageDescription;
-			productName = SwiftlierPackageDescription;
-			productType = "com.apple.product-type.framework";
-		};
-		"Swiftlier::Swiftlier" /* Swiftlier */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_168 /* Build configuration list for PBXNativeTarget "Swiftlier" */;
-			buildPhases = (
-				OBJ_171 /* Sources */,
-				OBJ_236 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Swiftlier;
-			productName = Swiftlier;
-			productReference = "Swiftlier::Swiftlier::Product" /* Swiftlier.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		"SwiftlierUIKit::SwiftPMPackageDescription" /* SwiftlierUIKitPackageDescription */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_308 /* Build configuration list for PBXNativeTarget "SwiftlierUIKitPackageDescription" */;
-			buildPhases = (
-				OBJ_311 /* Sources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SwiftlierUIKitPackageDescription;
-			productName = SwiftlierUIKitPackageDescription;
-			productType = "com.apple.product-type.framework";
-		};
-		"SwiftlierUIKit::SwiftlierUIKit" /* SwiftlierUIKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_244 /* Build configuration list for PBXNativeTarget "SwiftlierUIKit" */;
-			buildPhases = (
-				OBJ_247 /* Sources */,
-				OBJ_306 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SwiftlierUIKit;
-			productName = SwiftlierUIKit;
-			productReference = "SwiftlierUIKit::SwiftlierUIKit::Product" /* SwiftlierUIKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		"SwiftlierUIKit::SwiftlierUIKitTests" /* SwiftlierUIKitTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_319 /* Build configuration list for PBXNativeTarget "SwiftlierUIKitTests" */;
-			buildPhases = (
-				OBJ_322 /* Sources */,
-				OBJ_330 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				OBJ_332 /* PBXTargetDependency */,
-			);
-			name = SwiftlierUIKitTests;
-			productName = SwiftlierUIKitTests;
-			productReference = "SwiftlierUIKit::SwiftlierUIKitTests::Product" /* SwiftlierUIKitTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		OBJ_1 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastSwiftMigration = 9999;
-				LastUpgradeCheck = 9999;
-			};
-			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "SwiftlierUIKit" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				English,
-				en,
-			);
-			mainGroup = OBJ_5;
-			productRefGroup = OBJ_159 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				"Swiftlier::Swiftlier" /* Swiftlier */,
-				"Swiftlier::SwiftPMPackageDescription" /* SwiftlierPackageDescription */,
-				"SwiftlierUIKit::SwiftlierUIKit" /* SwiftlierUIKit */,
-				"SwiftlierUIKit::SwiftPMPackageDescription" /* SwiftlierUIKitPackageDescription */,
-				"SwiftlierUIKit::SwiftlierUIKitPackageTests::ProductTarget" /* SwiftlierUIKitPackageTests */,
-				"SwiftlierUIKit::SwiftlierUIKitTests" /* SwiftlierUIKitTests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXSourcesBuildPhase section */
-		OBJ_171 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_172 /* Coding+Helpers.swift in Sources */,
-				OBJ_173 /* CodingPurpose.swift in Sources */,
-				OBJ_174 /* NativeTypesDecoder.swift in Sources */,
-				OBJ_175 /* NativeTypesEncoder.swift in Sources */,
-				OBJ_176 /* PercentEncodable.swift in Sources */,
-				OBJ_177 /* SpecDecoder.swift in Sources */,
-				OBJ_178 /* Array+Sorting.swift in Sources */,
-				OBJ_179 /* Data+Processing.swift in Sources */,
-				OBJ_180 /* Date+Helpers.swift in Sources */,
-				OBJ_181 /* DispatchQueue+Helpers.swift in Sources */,
-				OBJ_182 /* SequenceType+Helpers.swift in Sources */,
-				OBJ_183 /* String+Helpers.swift in Sources */,
-				OBJ_184 /* String+Random.swift in Sources */,
-				OBJ_185 /* URL+Helpers.swift in Sources */,
-				OBJ_186 /* AnySwiftlierError.swift in Sources */,
-				OBJ_187 /* GenericSwiftlierError.swift in Sources */,
-				OBJ_188 /* OperationBasedError.swift in Sources */,
-				OBJ_189 /* OtherSwiftlierError.swift in Sources */,
-				OBJ_190 /* SwiftlierError.swift in Sources */,
-				OBJ_191 /* SwiftlierResult.swift in Sources */,
-				OBJ_192 /* FileSystem+iOSDirectories.swift in Sources */,
-				OBJ_193 /* FileSystem.swift in Sources */,
-				OBJ_194 /* Path+Coding.swift in Sources */,
-				OBJ_195 /* Path.swift in Sources */,
-				OBJ_196 /* PersistenceService.swift in Sources */,
-				OBJ_197 /* ReferenceTypePersistenceService.swift in Sources */,
-				OBJ_198 /* ValueTypePersistenceService.swift in Sources */,
-				OBJ_199 /* Bool+Formatting.swift in Sources */,
-				OBJ_200 /* Data+Base64.swift in Sources */,
-				OBJ_201 /* Date+Formatting.swift in Sources */,
-				OBJ_202 /* Double+Formatting.swift in Sources */,
-				OBJ_203 /* HeartRateFormatter.swift in Sources */,
-				OBJ_204 /* TimeInterval+Formatting.swift in Sources */,
-				OBJ_205 /* BinarySearchTree.swift in Sources */,
-				OBJ_206 /* LimitedQueue.swift in Sources */,
-				OBJ_207 /* OrderedDictionary.swift in Sources */,
-				OBJ_208 /* PatchyRange.swift in Sources */,
-				OBJ_209 /* SelectableValue.swift in Sources */,
-				OBJ_210 /* Syncable.swift in Sources */,
-				OBJ_211 /* WeakWrapper.swift in Sources */,
-				OBJ_212 /* EventCenter.swift in Sources */,
-				OBJ_213 /* MultiCallback.swift in Sources */,
-				OBJ_214 /* Observable.swift in Sources */,
-				OBJ_215 /* ObservableArray.swift in Sources */,
-				OBJ_216 /* ObservableDictionary.swift in Sources */,
-				OBJ_217 /* ObservableReference.swift in Sources */,
-				OBJ_218 /* JSON.swift in Sources */,
-				OBJ_219 /* NativeTypesStructured.swift in Sources */,
-				OBJ_220 /* Structured.swift in Sources */,
-				OBJ_221 /* XML.swift in Sources */,
-				OBJ_222 /* Age.swift in Sources */,
-				OBJ_223 /* AlwaysEqual.swift in Sources */,
-				OBJ_224 /* Angle.swift in Sources */,
-				OBJ_225 /* Day.swift in Sources */,
-				OBJ_226 /* EmailAddress.swift in Sources */,
-				OBJ_227 /* HTML.swift in Sources */,
-				OBJ_228 /* Mass.swift in Sources */,
-				OBJ_229 /* Price.swift in Sources */,
-				OBJ_230 /* UniquelyIdentifiable.swift in Sources */,
-				OBJ_231 /* CSVStreamReader.swift in Sources */,
-				OBJ_232 /* DelimiterStreamReader.swift in Sources */,
-				OBJ_233 /* StreamReader.swift in Sources */,
-				OBJ_234 /* Date+Testable.swift in Sources */,
-				OBJ_235 /* URLSession+Testing.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_241 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_242 /* Package.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_247 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_248 /* Alert.swift in Sources */,
-				OBJ_249 /* DataSourceType.swift in Sources */,
-				OBJ_250 /* DatePickerViewController.swift in Sources */,
-				OBJ_251 /* FormViewController.swift in Sources */,
-				OBJ_252 /* KeyboardConstraintAdjuster.swift in Sources */,
-				OBJ_253 /* KeyboardTracker.swift in Sources */,
-				OBJ_254 /* LayeredTableViewController.swift in Sources */,
-				OBJ_255 /* LimitedSizeViewController.swift in Sources */,
-				OBJ_256 /* MenuViewController.swift in Sources */,
-				OBJ_257 /* SelectListViewController.swift in Sources */,
-				OBJ_258 /* TaskService.swift in Sources */,
-				OBJ_259 /* UIBarButtonItem+BlockTarget.swift in Sources */,
-				OBJ_260 /* UIButton+BlockTarget.swift in Sources */,
-				OBJ_261 /* UICollectionView+EasyRegister.swift in Sources */,
-				OBJ_262 /* UINavigationController+Helpers.swift in Sources */,
-				OBJ_263 /* UITableView+EasyRegister.swift in Sources */,
-				OBJ_264 /* UIViewController+Helpers.swift in Sources */,
-				OBJ_265 /* UIViewController+PhotoViewing.swift in Sources */,
-				OBJ_266 /* UIViewController+Transitions.swift in Sources */,
-				OBJ_267 /* WebViewController.swift in Sources */,
-				OBJ_268 /* ZoomThroughTransition.swift in Sources */,
-				OBJ_269 /* Date+DispatchTime.swift in Sources */,
-				OBJ_270 /* EnergyFormatting.swift in Sources */,
-				OBJ_272 /* Float+Factory.swift in Sources */,
-				OBJ_273 /* Form.swift in Sources */,
-				OBJ_274 /* Menu.swift in Sources */,
-				OBJ_275 /* ObfuscatedData.swift in Sources */,
-				OBJ_276 /* ObservableArray+UI.swift in Sources */,
-				OBJ_277 /* Path+Image.swift in Sources */,
-				OBJ_278 /* Transformation.swift in Sources */,
-				OBJ_279 /* UIColor+Encodable.swift in Sources */,
-				OBJ_280 /* UIColor+Factory.swift in Sources */,
-				OBJ_281 /* UIDevice+AppIdioms.swift in Sources */,
-				OBJ_282 /* UIImage+Editing.swift in Sources */,
-				OBJ_283 /* BubbleView.swift in Sources */,
-				OBJ_284 /* CGContext+ThreadSafe.swift in Sources */,
-				OBJ_285 /* CGMath.swift in Sources */,
-				OBJ_286 /* CircleBorderView.swift in Sources */,
-				OBJ_287 /* CustomGradientView.swift in Sources */,
-				OBJ_288 /* DiagonalGradientView.swift in Sources */,
-				OBJ_289 /* MonthAndYearPicker.swift in Sources */,
-				OBJ_290 /* NSLayoutConstraint+SwifPlusPlus.swift in Sources */,
-				OBJ_291 /* NSLayoutContraint+Factory.swift in Sources */,
-				OBJ_292 /* PassThroughTouchView.swift in Sources */,
-				OBJ_293 /* PlaceholderTextView.swift in Sources */,
-				OBJ_294 /* RoundedBorderButton.swift in Sources */,
-				OBJ_295 /* RoundedBorderView.swift in Sources */,
-				OBJ_296 /* SectionHeaderWithButtonView.swift in Sources */,
-				OBJ_297 /* ShadowView.swift in Sources */,
-				OBJ_298 /* ThinLayoutConstraint.swift in Sources */,
-				OBJ_299 /* UIView+Animations.swift in Sources */,
-				OBJ_300 /* UIView+Constraints.swift in Sources */,
-				OBJ_301 /* UIView+Drawing.swift in Sources */,
-				OBJ_302 /* UIView+Helpers.swift in Sources */,
-				OBJ_303 /* UIView+ImageCapture.swift in Sources */,
-				OBJ_304 /* UIView+Layout.swift in Sources */,
-				OBJ_305 /* VerticalGradientView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_311 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_312 /* Package.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_322 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_323 /* AlertTests.swift in Sources */,
-				OBJ_324 /* CGMathTests.swift in Sources */,
-				OBJ_325 /* ColorTests.swift in Sources */,
-				OBJ_326 /* DataSourceTypeTests.swift in Sources */,
-				OBJ_327 /* ObfuscatedDataTests.swift in Sources */,
-				OBJ_328 /* Path_ImageTests.swift in Sources */,
-				OBJ_329 /* UIView_ConstraintsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		OBJ_317 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "SwiftlierUIKit::SwiftlierUIKitTests" /* SwiftlierUIKitTests */;
-			targetProxy = 496919B522F26C3900666708 /* PBXContainerItemProxy */;
-		};
-		OBJ_332 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Swiftlier::Swiftlier" /* Swiftlier */;
-			targetProxy = 496919B422F26C3700666708 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin XCBuildConfiguration section */
-		OBJ_169 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = SwiftlierUIKit.xcodeproj/Swiftlier_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = Swiftlier;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 5.0;
-				TARGET_NAME = Swiftlier;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
-		};
-		OBJ_170 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = SwiftlierUIKit.xcodeproj/Swiftlier_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = Swiftlier;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 5.0;
-				TARGET_NAME = Swiftlier;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Release;
-		};
-		OBJ_239 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		OBJ_240 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		OBJ_245 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = SwiftlierUIKit.xcodeproj/SwiftlierUIKit_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = SwiftlierUIKit;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 5.0;
-				TARGET_NAME = SwiftlierUIKit;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
-		};
-		OBJ_246 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = SwiftlierUIKit.xcodeproj/SwiftlierUIKit_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = SwiftlierUIKit;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 5.0;
-				TARGET_NAME = SwiftlierUIKit;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Release;
-		};
-		OBJ_3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 5;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_NS_ASSERTIONS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"$(inherited)",
-					"SWIFT_PACKAGE=1",
-					"DEBUG=1",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_SWIFT_FLAGS = "-DXcode";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				USE_HEADERMAP = NO;
-			};
-			name = Debug;
-		};
-		OBJ_309 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		OBJ_310 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		OBJ_315 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Debug;
-		};
-		OBJ_316 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Release;
-		};
-		OBJ_320 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = SwiftlierUIKit.xcodeproj/SwiftlierUIKitTests_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 5.0;
-				TARGET_NAME = SwiftlierUIKitTests;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
-		};
-		OBJ_321 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = SwiftlierUIKit.xcodeproj/SwiftlierUIKitTests_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 5.0;
-				TARGET_NAME = SwiftlierUIKitTests;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Release;
-		};
-		OBJ_4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = YES;
-				CURRENT_PROJECT_VERSION = 5;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"$(inherited)",
-					"SWIFT_PACKAGE=1",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				OTHER_SWIFT_FLAGS = "-DXcode";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				USE_HEADERMAP = NO;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		OBJ_168 /* Build configuration list for PBXNativeTarget "Swiftlier" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_169 /* Debug */,
-				OBJ_170 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_2 /* Build configuration list for PBXProject "SwiftlierUIKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_3 /* Debug */,
-				OBJ_4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_238 /* Build configuration list for PBXNativeTarget "SwiftlierPackageDescription" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_239 /* Debug */,
-				OBJ_240 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_244 /* Build configuration list for PBXNativeTarget "SwiftlierUIKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_245 /* Debug */,
-				OBJ_246 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_308 /* Build configuration list for PBXNativeTarget "SwiftlierUIKitPackageDescription" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_309 /* Debug */,
-				OBJ_310 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_314 /* Build configuration list for PBXAggregateTarget "SwiftlierUIKitPackageTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_315 /* Debug */,
-				OBJ_316 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_319 /* Build configuration list for PBXNativeTarget "SwiftlierUIKitTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_320 /* Debug */,
-				OBJ_321 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = OBJ_1 /* Project object */;
+   archiveVersion = "1";
+   objectVersion = "46";
+   objects = {
+      "OBJ_1" = {
+         isa = "PBXProject";
+         attributes = {
+            LastSwiftMigration = "9999";
+            LastUpgradeCheck = "9999";
+         };
+         buildConfigurationList = "OBJ_2";
+         compatibilityVersion = "Xcode 3.2";
+         developmentRegion = "English";
+         hasScannedForEncodings = "0";
+         knownRegions = (
+            "en"
+         );
+         mainGroup = "OBJ_5";
+         productRefGroup = "OBJ_156";
+         projectDirPath = ".";
+         targets = (
+            "Swiftlier::Swiftlier",
+            "Swiftlier::SwiftPMPackageDescription",
+            "SwiftlierUIKit::SwiftlierUIKit",
+            "SwiftlierUIKit::SwiftPMPackageDescription",
+            "SwiftlierUIKit::SwiftlierUIKitPackageTests::ProductTarget",
+            "SwiftlierUIKit::SwiftlierUIKitTests"
+         );
+      };
+      "OBJ_10" = {
+         isa = "PBXFileReference";
+         path = "Alert.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_100" = {
+         isa = "PBXFileReference";
+         path = "OtherSwiftlierError.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_101" = {
+         isa = "PBXFileReference";
+         path = "SwiftlierError.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_102" = {
+         isa = "PBXFileReference";
+         path = "SwiftlierResult.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_103" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_104",
+            "OBJ_105",
+            "OBJ_106",
+            "OBJ_107",
+            "OBJ_108",
+            "OBJ_109",
+            "OBJ_110"
+         );
+         name = "FileSystem";
+         path = "FileSystem";
+         sourceTree = "<group>";
+      };
+      "OBJ_104" = {
+         isa = "PBXFileReference";
+         path = "FileSystem+iOSDirectories.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_105" = {
+         isa = "PBXFileReference";
+         path = "FileSystem.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_106" = {
+         isa = "PBXFileReference";
+         path = "Path+Coding.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_107" = {
+         isa = "PBXFileReference";
+         path = "Path.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_108" = {
+         isa = "PBXFileReference";
+         path = "PersistenceService.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_109" = {
+         isa = "PBXFileReference";
+         path = "ReferenceTypePersistenceService.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_11" = {
+         isa = "PBXFileReference";
+         path = "DataSourceType.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_110" = {
+         isa = "PBXFileReference";
+         path = "ValueTypePersistenceService.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_111" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_112",
+            "OBJ_113",
+            "OBJ_114",
+            "OBJ_115",
+            "OBJ_116",
+            "OBJ_117"
+         );
+         name = "Formatting";
+         path = "Formatting";
+         sourceTree = "<group>";
+      };
+      "OBJ_112" = {
+         isa = "PBXFileReference";
+         path = "Bool+Formatting.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_113" = {
+         isa = "PBXFileReference";
+         path = "Data+Base64.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_114" = {
+         isa = "PBXFileReference";
+         path = "Date+Formatting.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_115" = {
+         isa = "PBXFileReference";
+         path = "Double+Formatting.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_116" = {
+         isa = "PBXFileReference";
+         path = "HeartRateFormatter.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_117" = {
+         isa = "PBXFileReference";
+         path = "TimeInterval+Formatting.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_118" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_119",
+            "OBJ_127",
+            "OBJ_134",
+            "OBJ_139"
+         );
+         name = "Model";
+         path = "Model";
+         sourceTree = "<group>";
+      };
+      "OBJ_119" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_120",
+            "OBJ_121",
+            "OBJ_122",
+            "OBJ_123",
+            "OBJ_124",
+            "OBJ_125",
+            "OBJ_126"
+         );
+         name = "Containers";
+         path = "Containers";
+         sourceTree = "<group>";
+      };
+      "OBJ_12" = {
+         isa = "PBXFileReference";
+         path = "DatePickerViewController.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_120" = {
+         isa = "PBXFileReference";
+         path = "BinarySearchTree.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_121" = {
+         isa = "PBXFileReference";
+         path = "LimitedQueue.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_122" = {
+         isa = "PBXFileReference";
+         path = "OrderedDictionary.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_123" = {
+         isa = "PBXFileReference";
+         path = "PatchyRange.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_124" = {
+         isa = "PBXFileReference";
+         path = "SelectableValue.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_125" = {
+         isa = "PBXFileReference";
+         path = "Syncable.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_126" = {
+         isa = "PBXFileReference";
+         path = "WeakWrapper.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_127" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_128",
+            "OBJ_129",
+            "OBJ_130",
+            "OBJ_131",
+            "OBJ_132",
+            "OBJ_133"
+         );
+         name = "Observable";
+         path = "Observable";
+         sourceTree = "<group>";
+      };
+      "OBJ_128" = {
+         isa = "PBXFileReference";
+         path = "EventCenter.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_129" = {
+         isa = "PBXFileReference";
+         path = "MultiCallback.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_13" = {
+         isa = "PBXFileReference";
+         path = "FormViewController.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_130" = {
+         isa = "PBXFileReference";
+         path = "Observable.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_131" = {
+         isa = "PBXFileReference";
+         path = "ObservableArray.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_132" = {
+         isa = "PBXFileReference";
+         path = "ObservableDictionary.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_133" = {
+         isa = "PBXFileReference";
+         path = "ObservableReference.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_134" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_135",
+            "OBJ_136",
+            "OBJ_137",
+            "OBJ_138"
+         );
+         name = "Structured";
+         path = "Structured";
+         sourceTree = "<group>";
+      };
+      "OBJ_135" = {
+         isa = "PBXFileReference";
+         path = "JSON.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_136" = {
+         isa = "PBXFileReference";
+         path = "NativeTypesStructured.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_137" = {
+         isa = "PBXFileReference";
+         path = "Structured.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_138" = {
+         isa = "PBXFileReference";
+         path = "XML.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_139" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_140",
+            "OBJ_141",
+            "OBJ_142",
+            "OBJ_143",
+            "OBJ_144",
+            "OBJ_145",
+            "OBJ_146",
+            "OBJ_147",
+            "OBJ_148"
+         );
+         name = "Types";
+         path = "Types";
+         sourceTree = "<group>";
+      };
+      "OBJ_14" = {
+         isa = "PBXFileReference";
+         path = "KeyboardConstraintAdjuster.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_140" = {
+         isa = "PBXFileReference";
+         path = "Age.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_141" = {
+         isa = "PBXFileReference";
+         path = "AlwaysEqual.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_142" = {
+         isa = "PBXFileReference";
+         path = "Angle.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_143" = {
+         isa = "PBXFileReference";
+         path = "Day.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_144" = {
+         isa = "PBXFileReference";
+         path = "EmailAddress.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_145" = {
+         isa = "PBXFileReference";
+         path = "HTML.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_146" = {
+         isa = "PBXFileReference";
+         path = "Mass.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_147" = {
+         isa = "PBXFileReference";
+         path = "Price.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_148" = {
+         isa = "PBXFileReference";
+         path = "UniquelyIdentifiable.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_149" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_150",
+            "OBJ_151",
+            "OBJ_152"
+         );
+         name = "Streams";
+         path = "Streams";
+         sourceTree = "<group>";
+      };
+      "OBJ_15" = {
+         isa = "PBXFileReference";
+         path = "KeyboardTracker.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_150" = {
+         isa = "PBXFileReference";
+         path = "CSVStreamReader.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_151" = {
+         isa = "PBXFileReference";
+         path = "DelimiterStreamReader.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_152" = {
+         isa = "PBXFileReference";
+         path = "StreamReader.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_153" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_154",
+            "OBJ_155"
+         );
+         name = "Testing";
+         path = "Testing";
+         sourceTree = "<group>";
+      };
+      "OBJ_154" = {
+         isa = "PBXFileReference";
+         path = "Date+Testable.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_155" = {
+         isa = "PBXFileReference";
+         path = "URLSession+Testing.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_156" = {
+         isa = "PBXGroup";
+         children = (
+            "SwiftlierUIKit::SwiftlierUIKitTests::Product",
+            "Swiftlier::Swiftlier::Product",
+            "SwiftlierUIKit::SwiftlierUIKit::Product"
+         );
+         name = "Products";
+         path = "";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "OBJ_16" = {
+         isa = "PBXFileReference";
+         path = "LayeredTableViewController.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_160" = {
+         isa = "PBXFileReference";
+         path = "Assets";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_161" = {
+         isa = "PBXFileReference";
+         path = "LICENSE";
+         sourceTree = "<group>";
+      };
+      "OBJ_162" = {
+         isa = "PBXFileReference";
+         path = "azure-pipelines.yml";
+         sourceTree = "<group>";
+      };
+      "OBJ_163" = {
+         isa = "PBXFileReference";
+         path = "README.md";
+         sourceTree = "<group>";
+      };
+      "OBJ_165" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_166",
+            "OBJ_167"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_166" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "SwiftlierUIKit.xcodeproj/Swiftlier_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.11";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "Swiftlier";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "Swiftlier";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_167" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "SwiftlierUIKit.xcodeproj/Swiftlier_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.11";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "Swiftlier";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "Swiftlier";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Release";
+      };
+      "OBJ_168" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_169",
+            "OBJ_170",
+            "OBJ_171",
+            "OBJ_172",
+            "OBJ_173",
+            "OBJ_174",
+            "OBJ_175",
+            "OBJ_176",
+            "OBJ_177",
+            "OBJ_178",
+            "OBJ_179",
+            "OBJ_180",
+            "OBJ_181",
+            "OBJ_182",
+            "OBJ_183",
+            "OBJ_184",
+            "OBJ_185",
+            "OBJ_186",
+            "OBJ_187",
+            "OBJ_188",
+            "OBJ_189",
+            "OBJ_190",
+            "OBJ_191",
+            "OBJ_192",
+            "OBJ_193",
+            "OBJ_194",
+            "OBJ_195",
+            "OBJ_196",
+            "OBJ_197",
+            "OBJ_198",
+            "OBJ_199",
+            "OBJ_200",
+            "OBJ_201",
+            "OBJ_202",
+            "OBJ_203",
+            "OBJ_204",
+            "OBJ_205",
+            "OBJ_206",
+            "OBJ_207",
+            "OBJ_208",
+            "OBJ_209",
+            "OBJ_210",
+            "OBJ_211",
+            "OBJ_212",
+            "OBJ_213",
+            "OBJ_214",
+            "OBJ_215",
+            "OBJ_216",
+            "OBJ_217",
+            "OBJ_218",
+            "OBJ_219",
+            "OBJ_220",
+            "OBJ_221",
+            "OBJ_222",
+            "OBJ_223",
+            "OBJ_224",
+            "OBJ_225",
+            "OBJ_226",
+            "OBJ_227",
+            "OBJ_228",
+            "OBJ_229",
+            "OBJ_230"
+         );
+      };
+      "OBJ_169" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_83";
+      };
+      "OBJ_17" = {
+         isa = "PBXFileReference";
+         path = "LimitedSizeViewController.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_170" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_84";
+      };
+      "OBJ_171" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_85";
+      };
+      "OBJ_172" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_86";
+      };
+      "OBJ_173" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_87";
+      };
+      "OBJ_174" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_88";
+      };
+      "OBJ_175" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_90";
+      };
+      "OBJ_176" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_91";
+      };
+      "OBJ_177" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_92";
+      };
+      "OBJ_178" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_93";
+      };
+      "OBJ_179" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_94";
+      };
+      "OBJ_18" = {
+         isa = "PBXFileReference";
+         path = "MenuViewController.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_180" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_95";
+      };
+      "OBJ_181" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_97";
+      };
+      "OBJ_182" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_98";
+      };
+      "OBJ_183" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_99";
+      };
+      "OBJ_184" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_100";
+      };
+      "OBJ_185" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_101";
+      };
+      "OBJ_186" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_102";
+      };
+      "OBJ_187" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_104";
+      };
+      "OBJ_188" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_105";
+      };
+      "OBJ_189" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_106";
+      };
+      "OBJ_19" = {
+         isa = "PBXFileReference";
+         path = "SelectListViewController.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_190" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_107";
+      };
+      "OBJ_191" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_108";
+      };
+      "OBJ_192" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_109";
+      };
+      "OBJ_193" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_110";
+      };
+      "OBJ_194" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_112";
+      };
+      "OBJ_195" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_113";
+      };
+      "OBJ_196" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_114";
+      };
+      "OBJ_197" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_115";
+      };
+      "OBJ_198" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_116";
+      };
+      "OBJ_199" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_117";
+      };
+      "OBJ_2" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_3",
+            "OBJ_4"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_20" = {
+         isa = "PBXFileReference";
+         path = "TaskService.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_200" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_120";
+      };
+      "OBJ_201" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_121";
+      };
+      "OBJ_202" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_122";
+      };
+      "OBJ_203" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_123";
+      };
+      "OBJ_204" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_124";
+      };
+      "OBJ_205" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_125";
+      };
+      "OBJ_206" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_126";
+      };
+      "OBJ_207" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_128";
+      };
+      "OBJ_208" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_129";
+      };
+      "OBJ_209" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_130";
+      };
+      "OBJ_21" = {
+         isa = "PBXFileReference";
+         path = "UIBarButtonItem+BlockTarget.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_210" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_131";
+      };
+      "OBJ_211" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_132";
+      };
+      "OBJ_212" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_133";
+      };
+      "OBJ_213" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_135";
+      };
+      "OBJ_214" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_136";
+      };
+      "OBJ_215" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_137";
+      };
+      "OBJ_216" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_138";
+      };
+      "OBJ_217" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_140";
+      };
+      "OBJ_218" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_141";
+      };
+      "OBJ_219" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_142";
+      };
+      "OBJ_22" = {
+         isa = "PBXFileReference";
+         path = "UIButton+BlockTarget.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_220" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_143";
+      };
+      "OBJ_221" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_144";
+      };
+      "OBJ_222" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_145";
+      };
+      "OBJ_223" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_146";
+      };
+      "OBJ_224" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_147";
+      };
+      "OBJ_225" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_148";
+      };
+      "OBJ_226" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_150";
+      };
+      "OBJ_227" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_151";
+      };
+      "OBJ_228" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_152";
+      };
+      "OBJ_229" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_154";
+      };
+      "OBJ_23" = {
+         isa = "PBXFileReference";
+         path = "UICollectionView+EasyRegister.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_230" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_155";
+      };
+      "OBJ_231" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
+      };
+      "OBJ_233" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_234",
+            "OBJ_235"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_234" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_235" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Release";
+      };
+      "OBJ_236" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_237"
+         );
+      };
+      "OBJ_237" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_80";
+      };
+      "OBJ_239" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_240",
+            "OBJ_241"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_24" = {
+         isa = "PBXFileReference";
+         path = "UINavigationController+Helpers.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_240" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "SwiftlierUIKit.xcodeproj/SwiftlierUIKit_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "SwiftlierUIKit";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "SwiftlierUIKit";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_241" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "SwiftlierUIKit.xcodeproj/SwiftlierUIKit_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "SwiftlierUIKit";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "SwiftlierUIKit";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Release";
+      };
+      "OBJ_242" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_243",
+            "OBJ_244",
+            "OBJ_245",
+            "OBJ_246",
+            "OBJ_247",
+            "OBJ_248",
+            "OBJ_249",
+            "OBJ_250",
+            "OBJ_251",
+            "OBJ_252",
+            "OBJ_253",
+            "OBJ_254",
+            "OBJ_255",
+            "OBJ_256",
+            "OBJ_257",
+            "OBJ_258",
+            "OBJ_259",
+            "OBJ_260",
+            "OBJ_261",
+            "OBJ_262",
+            "OBJ_263",
+            "OBJ_264",
+            "OBJ_265",
+            "OBJ_266",
+            "OBJ_267",
+            "OBJ_268",
+            "OBJ_269",
+            "OBJ_270",
+            "OBJ_271",
+            "OBJ_272",
+            "OBJ_273",
+            "OBJ_274",
+            "OBJ_275",
+            "OBJ_276",
+            "OBJ_277",
+            "OBJ_278",
+            "OBJ_279",
+            "OBJ_280",
+            "OBJ_281",
+            "OBJ_282",
+            "OBJ_283",
+            "OBJ_284",
+            "OBJ_285",
+            "OBJ_286",
+            "OBJ_287",
+            "OBJ_288",
+            "OBJ_289",
+            "OBJ_290",
+            "OBJ_291",
+            "OBJ_292",
+            "OBJ_293",
+            "OBJ_294",
+            "OBJ_295",
+            "OBJ_296",
+            "OBJ_297",
+            "OBJ_298",
+            "OBJ_299"
+         );
+      };
+      "OBJ_243" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_10";
+      };
+      "OBJ_244" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_11";
+      };
+      "OBJ_245" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_12";
+      };
+      "OBJ_246" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_13";
+      };
+      "OBJ_247" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_14";
+      };
+      "OBJ_248" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_15";
+      };
+      "OBJ_249" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_16";
+      };
+      "OBJ_25" = {
+         isa = "PBXFileReference";
+         path = "UITableView+EasyRegister.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_250" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_17";
+      };
+      "OBJ_251" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_18";
+      };
+      "OBJ_252" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_19";
+      };
+      "OBJ_253" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_20";
+      };
+      "OBJ_254" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_21";
+      };
+      "OBJ_255" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_22";
+      };
+      "OBJ_256" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_23";
+      };
+      "OBJ_257" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_24";
+      };
+      "OBJ_258" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_25";
+      };
+      "OBJ_259" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_26";
+      };
+      "OBJ_26" = {
+         isa = "PBXFileReference";
+         path = "UIViewController+Helpers.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_260" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_27";
+      };
+      "OBJ_261" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_28";
+      };
+      "OBJ_262" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_29";
+      };
+      "OBJ_263" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_30";
+      };
+      "OBJ_264" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_32";
+      };
+      "OBJ_265" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_33";
+      };
+      "OBJ_266" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_34";
+      };
+      "OBJ_267" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_35";
+      };
+      "OBJ_268" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_36";
+      };
+      "OBJ_269" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_37";
+      };
+      "OBJ_27" = {
+         isa = "PBXFileReference";
+         path = "UIViewController+PhotoViewing.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_270" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_38";
+      };
+      "OBJ_271" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_39";
+      };
+      "OBJ_272" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_40";
+      };
+      "OBJ_273" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_41";
+      };
+      "OBJ_274" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_42";
+      };
+      "OBJ_275" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_43";
+      };
+      "OBJ_276" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_44";
+      };
+      "OBJ_277" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_46";
+      };
+      "OBJ_278" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_47";
+      };
+      "OBJ_279" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_48";
+      };
+      "OBJ_28" = {
+         isa = "PBXFileReference";
+         path = "UIViewController+Transitions.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_280" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_49";
+      };
+      "OBJ_281" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_50";
+      };
+      "OBJ_282" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_51";
+      };
+      "OBJ_283" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_52";
+      };
+      "OBJ_284" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_53";
+      };
+      "OBJ_285" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_54";
+      };
+      "OBJ_286" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_55";
+      };
+      "OBJ_287" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_56";
+      };
+      "OBJ_288" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_57";
+      };
+      "OBJ_289" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_58";
+      };
+      "OBJ_29" = {
+         isa = "PBXFileReference";
+         path = "WebViewController.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_290" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_59";
+      };
+      "OBJ_291" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_60";
+      };
+      "OBJ_292" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_61";
+      };
+      "OBJ_293" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_62";
+      };
+      "OBJ_294" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_63";
+      };
+      "OBJ_295" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_64";
+      };
+      "OBJ_296" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_65";
+      };
+      "OBJ_297" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_66";
+      };
+      "OBJ_298" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_67";
+      };
+      "OBJ_299" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_68";
+      };
+      "OBJ_3" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_OBJC_ARC = "YES";
+            COMBINE_HIDPI_IMAGES = "YES";
+            COPY_PHASE_STRIP = "NO";
+            DEBUG_INFORMATION_FORMAT = "dwarf";
+            DYLIB_INSTALL_NAME_BASE = "@rpath";
+            ENABLE_NS_ASSERTIONS = "YES";
+            GCC_OPTIMIZATION_LEVEL = "0";
+            GCC_PREPROCESSOR_DEFINITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE=1",
+               "DEBUG=1"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            ONLY_ACTIVE_ARCH = "YES";
+            OTHER_SWIFT_FLAGS = (
+               "-DXcode"
+            );
+            PRODUCT_NAME = "$(TARGET_NAME)";
+            SDKROOT = "macosx";
+            SUPPORTED_PLATFORMS = (
+               "macosx",
+               "iphoneos",
+               "iphonesimulator",
+               "appletvos",
+               "appletvsimulator",
+               "watchos",
+               "watchsimulator"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE",
+               "DEBUG"
+            );
+            SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+            USE_HEADERMAP = "NO";
+         };
+         name = "Debug";
+      };
+      "OBJ_30" = {
+         isa = "PBXFileReference";
+         path = "ZoomThroughTransition.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_300" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
+      };
+      "OBJ_302" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_303",
+            "OBJ_304"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_303" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_304" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Release";
+      };
+      "OBJ_305" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_306"
+         );
+      };
+      "OBJ_306" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_6";
+      };
+      "OBJ_308" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_309",
+            "OBJ_310"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_309" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+         };
+         name = "Debug";
+      };
+      "OBJ_31" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_32",
+            "OBJ_33",
+            "OBJ_34",
+            "OBJ_35",
+            "OBJ_36",
+            "OBJ_37",
+            "OBJ_38",
+            "OBJ_39",
+            "OBJ_40",
+            "OBJ_41",
+            "OBJ_42",
+            "OBJ_43",
+            "OBJ_44"
+         );
+         name = "Model";
+         path = "Model";
+         sourceTree = "<group>";
+      };
+      "OBJ_310" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+         };
+         name = "Release";
+      };
+      "OBJ_311" = {
+         isa = "PBXTargetDependency";
+         target = "SwiftlierUIKit::SwiftlierUIKitTests";
+      };
+      "OBJ_313" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_314",
+            "OBJ_315"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_314" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "SwiftlierUIKit.xcodeproj/SwiftlierUIKitTests_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "@loader_path/../Frameworks",
+               "@loader_path/Frameworks"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "SwiftlierUIKitTests";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_315" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "SwiftlierUIKit.xcodeproj/SwiftlierUIKitTests_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "@loader_path/../Frameworks",
+               "@loader_path/Frameworks"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "SwiftlierUIKitTests";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Release";
+      };
+      "OBJ_316" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_317",
+            "OBJ_318",
+            "OBJ_319",
+            "OBJ_320",
+            "OBJ_321",
+            "OBJ_322",
+            "OBJ_323"
+         );
+      };
+      "OBJ_317" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_71";
+      };
+      "OBJ_318" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_72";
+      };
+      "OBJ_319" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_73";
+      };
+      "OBJ_32" = {
+         isa = "PBXFileReference";
+         path = "Date+DispatchTime.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_320" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_74";
+      };
+      "OBJ_321" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_75";
+      };
+      "OBJ_322" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_76";
+      };
+      "OBJ_323" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_77";
+      };
+      "OBJ_324" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_325"
+         );
+      };
+      "OBJ_325" = {
+         isa = "PBXBuildFile";
+         fileRef = "Swiftlier::Swiftlier::Product";
+      };
+      "OBJ_326" = {
+         isa = "PBXTargetDependency";
+         target = "Swiftlier::Swiftlier";
+      };
+      "OBJ_33" = {
+         isa = "PBXFileReference";
+         path = "EnergyFormatting.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_34" = {
+         isa = "PBXFileReference";
+         path = "Float+Factory.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_35" = {
+         isa = "PBXFileReference";
+         path = "Form.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_36" = {
+         isa = "PBXFileReference";
+         path = "Menu.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_37" = {
+         isa = "PBXFileReference";
+         path = "ObfuscatedData.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_38" = {
+         isa = "PBXFileReference";
+         path = "ObservableArray+UI.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_39" = {
+         isa = "PBXFileReference";
+         path = "Path+Image.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_4" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_OBJC_ARC = "YES";
+            COMBINE_HIDPI_IMAGES = "YES";
+            COPY_PHASE_STRIP = "YES";
+            DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+            DYLIB_INSTALL_NAME_BASE = "@rpath";
+            GCC_OPTIMIZATION_LEVEL = "s";
+            GCC_PREPROCESSOR_DEFINITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE=1"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_SWIFT_FLAGS = (
+               "-DXcode"
+            );
+            PRODUCT_NAME = "$(TARGET_NAME)";
+            SDKROOT = "macosx";
+            SUPPORTED_PLATFORMS = (
+               "macosx",
+               "iphoneos",
+               "iphonesimulator",
+               "appletvos",
+               "appletvsimulator",
+               "watchos",
+               "watchsimulator"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE"
+            );
+            SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+            USE_HEADERMAP = "NO";
+         };
+         name = "Release";
+      };
+      "OBJ_40" = {
+         isa = "PBXFileReference";
+         path = "Transformation.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_41" = {
+         isa = "PBXFileReference";
+         path = "UIColor+Encodable.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_42" = {
+         isa = "PBXFileReference";
+         path = "UIColor+Factory.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_43" = {
+         isa = "PBXFileReference";
+         path = "UIDevice+AppIdioms.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_44" = {
+         isa = "PBXFileReference";
+         path = "UIImage+Editing.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_45" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_46",
+            "OBJ_47",
+            "OBJ_48",
+            "OBJ_49",
+            "OBJ_50",
+            "OBJ_51",
+            "OBJ_52",
+            "OBJ_53",
+            "OBJ_54",
+            "OBJ_55",
+            "OBJ_56",
+            "OBJ_57",
+            "OBJ_58",
+            "OBJ_59",
+            "OBJ_60",
+            "OBJ_61",
+            "OBJ_62",
+            "OBJ_63",
+            "OBJ_64",
+            "OBJ_65",
+            "OBJ_66",
+            "OBJ_67",
+            "OBJ_68"
+         );
+         name = "View";
+         path = "View";
+         sourceTree = "<group>";
+      };
+      "OBJ_46" = {
+         isa = "PBXFileReference";
+         path = "BubbleView.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_47" = {
+         isa = "PBXFileReference";
+         path = "CGContext+ThreadSafe.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_48" = {
+         isa = "PBXFileReference";
+         path = "CGMath.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_49" = {
+         isa = "PBXFileReference";
+         path = "CircleBorderView.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_5" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_6",
+            "OBJ_7",
+            "OBJ_69",
+            "OBJ_78",
+            "OBJ_156",
+            "OBJ_160",
+            "OBJ_161",
+            "OBJ_162",
+            "OBJ_163"
+         );
+         path = "";
+         sourceTree = "<group>";
+      };
+      "OBJ_50" = {
+         isa = "PBXFileReference";
+         path = "CustomGradientView.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_51" = {
+         isa = "PBXFileReference";
+         path = "DiagonalGradientView.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_52" = {
+         isa = "PBXFileReference";
+         path = "MonthAndYearPicker.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_53" = {
+         isa = "PBXFileReference";
+         path = "NSLayoutConstraint+SwifPlusPlus.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_54" = {
+         isa = "PBXFileReference";
+         path = "NSLayoutContraint+Factory.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_55" = {
+         isa = "PBXFileReference";
+         path = "PassThroughTouchView.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_56" = {
+         isa = "PBXFileReference";
+         path = "PlaceholderTextView.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_57" = {
+         isa = "PBXFileReference";
+         path = "RoundedBorderButton.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_58" = {
+         isa = "PBXFileReference";
+         path = "RoundedBorderView.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_59" = {
+         isa = "PBXFileReference";
+         path = "SectionHeaderWithButtonView.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_6" = {
+         isa = "PBXFileReference";
+         explicitFileType = "sourcecode.swift";
+         path = "Package.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_60" = {
+         isa = "PBXFileReference";
+         path = "ShadowView.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_61" = {
+         isa = "PBXFileReference";
+         path = "ThinLayoutConstraint.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_62" = {
+         isa = "PBXFileReference";
+         path = "UIView+Animations.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_63" = {
+         isa = "PBXFileReference";
+         path = "UIView+Constraints.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_64" = {
+         isa = "PBXFileReference";
+         path = "UIView+Drawing.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_65" = {
+         isa = "PBXFileReference";
+         path = "UIView+Helpers.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_66" = {
+         isa = "PBXFileReference";
+         path = "UIView+ImageCapture.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_67" = {
+         isa = "PBXFileReference";
+         path = "UIView+Layout.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_68" = {
+         isa = "PBXFileReference";
+         path = "VerticalGradientView.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_69" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_70"
+         );
+         name = "Tests";
+         path = "";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_7" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_8"
+         );
+         name = "Sources";
+         path = "Sources";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_70" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_71",
+            "OBJ_72",
+            "OBJ_73",
+            "OBJ_74",
+            "OBJ_75",
+            "OBJ_76",
+            "OBJ_77"
+         );
+         name = "SwiftlierUIKitTests";
+         path = "Tests/SwiftlierUIKitTests";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_71" = {
+         isa = "PBXFileReference";
+         path = "AlertTests.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_72" = {
+         isa = "PBXFileReference";
+         path = "CGMathTests.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_73" = {
+         isa = "PBXFileReference";
+         path = "ColorTests.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_74" = {
+         isa = "PBXFileReference";
+         path = "DataSourceTypeTests.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_75" = {
+         isa = "PBXFileReference";
+         path = "ObfuscatedDataTests.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_76" = {
+         isa = "PBXFileReference";
+         path = "Path_ImageTests.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_77" = {
+         isa = "PBXFileReference";
+         path = "UIView_ConstraintsTests.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_78" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_79"
+         );
+         name = "Dependencies";
+         path = "";
+         sourceTree = "<group>";
+      };
+      "OBJ_79" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_80",
+            "OBJ_81"
+         );
+         name = "Swiftlier 5.6.1";
+         path = ".build/checkouts/Swiftlier/Sources";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_8" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_9",
+            "OBJ_31",
+            "OBJ_45"
+         );
+         name = "SwiftlierUIKit";
+         path = "SwiftlierUIKit";
+         sourceTree = "<group>";
+      };
+      "OBJ_80" = {
+         isa = "PBXFileReference";
+         explicitFileType = "sourcecode.swift";
+         name = "Package.swift";
+         path = "/Users/andrew/git/learn-brigade/ed-suite/ios/SwiftlierUIKit/.build/checkouts/Swiftlier/Package.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_81" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_82",
+            "OBJ_89",
+            "OBJ_96",
+            "OBJ_103",
+            "OBJ_111",
+            "OBJ_118",
+            "OBJ_149",
+            "OBJ_153"
+         );
+         name = "Swiftlier";
+         path = "Swiftlier";
+         sourceTree = "<group>";
+      };
+      "OBJ_82" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_83",
+            "OBJ_84",
+            "OBJ_85",
+            "OBJ_86",
+            "OBJ_87",
+            "OBJ_88"
+         );
+         name = "Coding";
+         path = "Coding";
+         sourceTree = "<group>";
+      };
+      "OBJ_83" = {
+         isa = "PBXFileReference";
+         path = "Coding+Helpers.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_84" = {
+         isa = "PBXFileReference";
+         path = "CodingKeys.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_85" = {
+         isa = "PBXFileReference";
+         path = "NativeTypesDecoder.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_86" = {
+         isa = "PBXFileReference";
+         path = "NativeTypesEncoder.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_87" = {
+         isa = "PBXFileReference";
+         path = "PercentEncodable.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_88" = {
+         isa = "PBXFileReference";
+         path = "SpecDecoder.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_89" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_90",
+            "OBJ_91",
+            "OBJ_92",
+            "OBJ_93",
+            "OBJ_94",
+            "OBJ_95"
+         );
+         name = "Enhancements";
+         path = "Enhancements";
+         sourceTree = "<group>";
+      };
+      "OBJ_9" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_10",
+            "OBJ_11",
+            "OBJ_12",
+            "OBJ_13",
+            "OBJ_14",
+            "OBJ_15",
+            "OBJ_16",
+            "OBJ_17",
+            "OBJ_18",
+            "OBJ_19",
+            "OBJ_20",
+            "OBJ_21",
+            "OBJ_22",
+            "OBJ_23",
+            "OBJ_24",
+            "OBJ_25",
+            "OBJ_26",
+            "OBJ_27",
+            "OBJ_28",
+            "OBJ_29",
+            "OBJ_30"
+         );
+         name = "Controller";
+         path = "Controller";
+         sourceTree = "<group>";
+      };
+      "OBJ_90" = {
+         isa = "PBXFileReference";
+         path = "Collection+Enhancments.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_91" = {
+         isa = "PBXFileReference";
+         path = "Data+Processing.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_92" = {
+         isa = "PBXFileReference";
+         path = "Date+Helpers.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_93" = {
+         isa = "PBXFileReference";
+         path = "DispatchQueue+Enhancements.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_94" = {
+         isa = "PBXFileReference";
+         path = "String+Enhancements.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_95" = {
+         isa = "PBXFileReference";
+         path = "URL+Enhancements.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_96" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_97",
+            "OBJ_98",
+            "OBJ_99",
+            "OBJ_100",
+            "OBJ_101",
+            "OBJ_102"
+         );
+         name = "Errors";
+         path = "Errors";
+         sourceTree = "<group>";
+      };
+      "OBJ_97" = {
+         isa = "PBXFileReference";
+         path = "AnySwiftlierError.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_98" = {
+         isa = "PBXFileReference";
+         path = "GenericSwiftlierError.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_99" = {
+         isa = "PBXFileReference";
+         path = "OperationBasedError.swift";
+         sourceTree = "<group>";
+      };
+      "Swiftlier::SwiftPMPackageDescription" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_233";
+         buildPhases = (
+            "OBJ_236"
+         );
+         dependencies = (
+         );
+         name = "SwiftlierPackageDescription";
+         productName = "SwiftlierPackageDescription";
+         productType = "com.apple.product-type.framework";
+      };
+      "Swiftlier::Swiftlier" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_165";
+         buildPhases = (
+            "OBJ_168",
+            "OBJ_231"
+         );
+         dependencies = (
+         );
+         name = "Swiftlier";
+         productName = "Swiftlier";
+         productReference = "Swiftlier::Swiftlier::Product";
+         productType = "com.apple.product-type.framework";
+      };
+      "Swiftlier::Swiftlier::Product" = {
+         isa = "PBXFileReference";
+         path = "Swiftlier.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "SwiftlierUIKit::SwiftPMPackageDescription" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_302";
+         buildPhases = (
+            "OBJ_305"
+         );
+         dependencies = (
+         );
+         name = "SwiftlierUIKitPackageDescription";
+         productName = "SwiftlierUIKitPackageDescription";
+         productType = "com.apple.product-type.framework";
+      };
+      "SwiftlierUIKit::SwiftlierUIKit" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_239";
+         buildPhases = (
+            "OBJ_242",
+            "OBJ_300"
+         );
+         dependencies = (
+         );
+         name = "SwiftlierUIKit";
+         productName = "SwiftlierUIKit";
+         productReference = "SwiftlierUIKit::SwiftlierUIKit::Product";
+         productType = "com.apple.product-type.framework";
+      };
+      "SwiftlierUIKit::SwiftlierUIKit::Product" = {
+         isa = "PBXFileReference";
+         path = "SwiftlierUIKit.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "SwiftlierUIKit::SwiftlierUIKitPackageTests::ProductTarget" = {
+         isa = "PBXAggregateTarget";
+         buildConfigurationList = "OBJ_308";
+         buildPhases = (
+         );
+         dependencies = (
+            "OBJ_311"
+         );
+         name = "SwiftlierUIKitPackageTests";
+         productName = "SwiftlierUIKitPackageTests";
+      };
+      "SwiftlierUIKit::SwiftlierUIKitTests" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_313";
+         buildPhases = (
+            "OBJ_316",
+            "OBJ_324"
+         );
+         dependencies = (
+            "OBJ_326"
+         );
+         name = "SwiftlierUIKitTests";
+         productName = "SwiftlierUIKitTests";
+         productReference = "SwiftlierUIKit::SwiftlierUIKitTests::Product";
+         productType = "com.apple.product-type.bundle.unit-test";
+      };
+      "SwiftlierUIKit::SwiftlierUIKitTests::Product" = {
+         isa = "PBXFileReference";
+         path = "SwiftlierUIKitTests.xctest";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+   };
+   rootObject = "OBJ_1";
 }
