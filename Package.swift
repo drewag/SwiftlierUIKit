@@ -12,7 +12,7 @@ let package = Package(
         .package(url: "https://github.com/drewag/Swiftlier.git", from: "5.6.1"),
     ],
     targets: [
-        .target(name: "SwiftlierUIKit", dependencies: [], path: "Sources"),
-        .testTarget(name: "SwiftlierUIKitTests", dependencies: ["Swiftlier"]),
+        .target(name: "SwiftlierUIKit", dependencies: ["Swiftlier"], path: "Sources"),
+        .testTarget(name: "SwiftlierUIKitTests", dependencies: ["SwiftlierUIKit"]),
     ]
 )

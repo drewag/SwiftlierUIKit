@@ -2,6 +2,7 @@
 *.swp
 *.swo
 *xcuserdata/
+*.xcodeproj
 src/
 .build/
 build/
