@@ -78,6 +78,7 @@ public class MenuViewController: UITableViewController {
         cell.textLabel?.text = menuItem.displayText()
         cell.textLabel?.font = type(of: self).font
         cell.imageView?.image = menuItem.icon
+        cell.imageView?.tintColor = self.textColor
         cell.backgroundColor = tableView.backgroundColor
         cell.accessoryType = menuItem.isSelected ? .checkmark : .none
         if let color = self.selectionColor {
