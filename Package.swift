@@ -9,7 +9,7 @@ let package = Package(
         .library(name: "SwiftlierUIKit", targets: ["SwiftlierUIKit"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/drewag/Swiftlier.git", from: "5.6.1"),
+        .package(url: "https://github.com/drewag/Swiftlier.git", from: "6.0.0"),
     ],
     targets: [
         .target(name: "SwiftlierUIKit", dependencies: ["Swiftlier"], path: "Sources"),
