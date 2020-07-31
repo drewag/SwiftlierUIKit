@@ -27,6 +27,10 @@ extension ObservableArray {
                     tableView.insertRows(at: [indexPath], with: .automatic)
                 }
             },
+            onDidUpdate: { _, index in
+                let indexPath = IndexPath(item: index + indexOffset, section: section)
+                tableView.reloadRows(at: [indexPath], with: .automatic)
+            },
             onDidRemove: { [unowned self] _, index in
                 let indexPath = IndexPath(item: index + indexOffset, section: section)
                 if self.values.count == 0 && emptyRowCount != 0 {
@@ -59,6 +63,10 @@ extension ObservableArray {
             onDidInsert: { _, index in
                 let indexPath = IndexPath(item: index + indexOffset, section: section)
                 collectionView.insertItems(at: [indexPath])
+            },
+            onDidUpdate: { _, index in
+                let indexPath = IndexPath(item: index + indexOffset, section: section)
+                collectionView.reloadItems(at: [indexPath])
             },
             onDidRemove: { _, index in
                 let indexPath = IndexPath(item: index + indexOffset, section: section)
