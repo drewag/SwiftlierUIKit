@@ -269,6 +269,7 @@ final class AlertTests: XCTestCase {
         var didPrefer = false
         var didOther = false
         var didDestroy = false
+        var didFinally = false
 
         let viewController = TestViewController()
         viewController.showAlert(
@@ -279,7 +280,8 @@ final class AlertTests: XCTestCase {
             other: [
                 .action("Other", handler: { didOther = true}),
                 .action("Destroy", isDestructive: true, handler: { didDestroy = true}),
-            ]
+            ],
+            finally: { didFinally = true }
         )
         if let alert = viewController.didPresent as? UIAlertController {
             XCTAssertEqual(alert.title, "Different Title")
@@ -306,30 +308,39 @@ final class AlertTests: XCTestCase {
 
             XCTAssertEqual(alert.textFields ?? [], [])
 
+            XCTAssertFalse(didFinally)
             XCTAssertFalse(didCancel)
             XCTAssertFalse(didPrefer)
             XCTAssertFalse(didOther)
             XCTAssertFalse(didDestroy)
 
+            didFinally = false
             (alert.actions[0] as! MockAlertAction).handler?(alert.actions[0])
+            XCTAssertTrue(didFinally)
             XCTAssertTrue(didCancel)
             XCTAssertFalse(didPrefer)
             XCTAssertFalse(didOther)
             XCTAssertFalse(didDestroy)
 
+            didFinally = false
             (alert.actions[1] as! MockAlertAction).handler?(alert.actions[1])
+            XCTAssertTrue(didFinally)
             XCTAssertTrue(didCancel)
             XCTAssertTrue(didPrefer)
             XCTAssertFalse(didOther)
             XCTAssertFalse(didDestroy)
 
+            didFinally = false
             (alert.actions[2] as! MockAlertAction).handler?(alert.actions[2])
+            XCTAssertTrue(didFinally)
             XCTAssertTrue(didCancel)
             XCTAssertTrue(didPrefer)
             XCTAssertTrue(didOther)
             XCTAssertFalse(didDestroy)
 
+            didFinally = false
             (alert.actions[3] as! MockAlertAction).handler?(alert.actions[3])
+            XCTAssertTrue(didFinally)
             XCTAssertTrue(didCancel)
             XCTAssertTrue(didPrefer)
             XCTAssertTrue(didOther)
