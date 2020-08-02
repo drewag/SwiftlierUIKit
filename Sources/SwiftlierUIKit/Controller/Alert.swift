@@ -65,18 +65,20 @@ extension UIViewController {
     public func showAlert(
         withError error: Error,
         _ doing: String,
-        other: [AlertAction] = []
+        other: [AlertAction] = [],
+        finally: (() -> ())? = nil
         )
     {
         let error = error.swiftlierError(while: doing)
-        self.showAlert(withError: error, other: other)
+        self.showAlert(withError: error, other: other, finally: finally)
     }
 }
 
 extension UIViewController {
     public func showAlert(
         withError error: SwiftlierError,
-        other: [AlertAction] = []
+        other: [AlertAction] = [],
+        finally: (() -> ())? = nil
         )
     {
         guard let window = self.view?.window else {
@@ -93,7 +95,8 @@ extension UIViewController {
         self.showAlert(
             withTitle: error.title,
             message: error.alertMessage,
-            other: other
+            other: other,
+            finally: finally
         )
     }
 
@@ -156,7 +159,8 @@ extension UIViewController {
         message: String,
         cancel: AlertAction? = nil,
         preferred: AlertAction? = nil,
-        other: [AlertAction] = []
+        other: [AlertAction] = [],
+        finally: (() -> ())? = nil
         )
     {
         guard let window = self.view?.window else {
@@ -182,6 +186,9 @@ extension UIViewController {
             preferred: preferred,
             other: other,
             onTapped: { tappedAction in
+                defer {
+                    finally?()
+                }
                 if let action = cancel, action.name == tappedAction.title {
                     action.handler?()
                     return
