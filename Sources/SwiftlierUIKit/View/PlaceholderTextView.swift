@@ -87,7 +87,7 @@ import UIKit
 
 private extension PlaceholderTextView {
     func sharedSetup() {
-        NotificationCenter.default.addObserver(self, selector: #selector(textChanged(_:)), name: UITextField.textDidChangeNotification, object: self)
+        NotificationCenter.default.addObserver(self, selector: #selector(textChanged(_:)), name: UITextView.textDidChangeNotification, object: self)
         
         self.placeholderTextView.isUserInteractionEnabled = false
         self.addSubview(placeholderTextView)
