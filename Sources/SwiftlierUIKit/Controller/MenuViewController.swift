@@ -15,7 +15,7 @@ public class MenuViewController: UITableViewController {
     static let font = UIFont.systemFont(ofSize: 17)
 
     let menu: Menu
-    public var textColor = UIColor.black
+    public var textColor = UIColor.darkText
     public var selectionColor: UIColor?
 
     public init(menu: Menu) {
